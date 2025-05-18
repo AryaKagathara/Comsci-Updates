@@ -27,6 +27,8 @@ export default function Document() {
         />
         {/* End Google tag (gtag.js) scripts */}
 
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+
       </Head>
       <body>
         <Main />
