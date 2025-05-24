@@ -617,3 +617,67 @@ a.general-link { color: var(--primary-orange); font-size: 16px; font-weight: 500
 .tag-item:hover { background-color: #EFEFEF; }
 .tag-text { color: #000; font-family: 'Satoshi', sans-serif; font-weight: 500; font-size: 14px; line-height: 1.35; text-align: left; white-space: nowrap; }
 .popup-head {color: var(--primary-orange); text-align: center;}
+
+
+.approach_details {
+	background: var(--primary-white);
+	padding: 160px 0;
+}
+
+
+.approach_heading { width: 100%; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; gap: 20px; margin: 0 auto 150px; }
+.approach_details .approach_heading h1 { color: var(--primary-black); text-align: center; font-weight: 700; line-height: 1.2; font-size: 72px; }
+.approach_details .approach_heading p { font-weight: 500; width: 50%;}
+
+.approach_wrap .test_sec+.test_sec {
+    text-align: center;
+}
+
+.approach_wrap .test_sec .appro_wrap {
+	width: 50%;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.approach_wrap .test_sec:nth-child(even) {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.approach_wrap .test_sec .appro_wrap .image {
+	display: flex;
+	min-width: 400px;
+}
+
+.approach_wrap .test_sec .appro_wrap .image img {
+	width: 100%;
+	height: auto;
+	max-width: 500px;
+	max-height: 300px;
+	object-fit: contain;
+}
+
+.approach_wrap .test_sec .appro_wrap .contentbox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.approach_wrap .test_sec .appro_wrap .contentbox h2 {
+	color: var(--primary-black);
+  font-size: 24px;
+	font-weight: bold;
+	line-height: 1.25;
+  text-align: center;
+}
+
+.approach_wrap .test_sec .appro_wrap .contentbox p {
+	color: var(--primary-black);
+	font-weight: 500;
+  text-align: center;
+  width: 100%;
+}

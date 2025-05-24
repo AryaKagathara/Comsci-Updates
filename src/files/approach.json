@@ -1,0 +1,149 @@
+[
+    {
+        "no": "1",
+        "quote": "Logo Design",
+        "name": "We craft brand identities that connect with your audience, build trust, and elevate your business presence.",
+        "image": "/images/approach/1.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "2",
+        "quote": "Typography",
+        "name": "Whether modern, playful, or professional typography builds brand character.",
+        "image": "/images/approach/2.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "3",
+        "quote": "Color Palette",
+        "name": "Colors are key to mood and perception. We pick palettes that resonate with your audience.",
+        "image": "/images/approach/3.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "4",
+        "quote": "Brand Guidelines",
+        "name": "We document your identity colors, fonts, logos for future-proof branding.",
+        "image": "/images/approach/4.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "5",
+        "quote": "Business Stationery & Packaging",
+        "name": "Business cards, brochures, billboards, and product packaging,  that extend your visual identity.",
+        "image": "/images/approach/5.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "6",
+        "quote": "Wireframing",
+        "name": "Structure your product with strategic layout planning.",
+        "image": "/images/approach/6.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "7",
+        "quote": "Design System & Components",
+        "name": "Consistent components, typography, spacing, and interaction patterns.",
+        "image": "/images/approach/7.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "8",
+        "quote": "UI Design",
+        "name": "High-fidelity screens that are both functional and beautiful.",
+        "image": "/images/approach/8.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "9",
+        "quote": "Prototyping",
+        "name": "Clickable prototypes that simulate user experience pre-development.",
+        "image": "/images/approach/9.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "10",
+        "quote": "Frontend Development",
+        "name": "Pixel-perfect HTML/CSS/JS development for user-facing interfaces.",
+        "image": "/images/approach/10.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "11",
+        "quote": "Backend Development",
+        "name": "Power your product with Laravel, Python Django, PHP, or Node.js.",
+        "image": "/images/approach/11.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "12",
+        "quote": "CMS & E-commerce Integration",
+        "name": "Easily manage content or products with tailored backend systems.",
+        "image": "/images/approach/12.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "13",
+        "quote": "QA & Testing",
+        "name": "Extensive testing across devices and browsers to ensure flawless performance.",
+        "image": "/images/approach/13.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "14",
+        "quote": "Native & Hybrid App Development",
+        "name": "Scalable, high-performance apps built with React Native, Swift, and Kotlin.",
+        "image": "/images/approach/14.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "15",
+        "quote": "API Integration & Backend Sync",
+        "name": "Connect apps with databases, CRMs, and third-party tools.",
+        "image": "/images/approach/15.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "16",
+        "quote": "App Store Launch & Maintenance",
+        "name": "We handle the publishing, optimization, and support.",
+        "image": "/images/approach/16.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "17",
+        "quote": "AI-Powered Features",
+        "name": "Add intelligence to your software with ML & AI models.",
+        "image": "/images/approach/17.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "18",
+        "quote": "Custom AI Development",
+        "name": "We create solutions using TensorFlow, OpenAI APIs, and more.",
+        "image": "/images/approach/18.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "19",
+        "quote": "On-Page SEO Optimization",
+        "name": "Clean code, tags, meta-data, and speed optimization.",
+        "image": "/images/approach/19.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "20",
+        "quote": "Keyword Research & Content Planning",
+        "name": "We help you target the right audience with smart content.",
+        "image": "/images/approach/20.webp",
+        "scrollSpeed": ".4"
+    },
+    {
+        "no": "21",
+        "quote": "Technical SEO & Analytics",
+        "name": "Site audits, indexing, speed fixes, and analytics integration.",
+        "image": "/images/approach/21.webp",
+        "scrollSpeed": ".4"
+    }
+]

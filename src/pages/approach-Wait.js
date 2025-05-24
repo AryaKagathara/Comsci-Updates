@@ -5,7 +5,6 @@ import StrategySection from "@/components/layout/StrategySection";
 import Technologies from "@/components/layout/Technologies";
 import ProjectSection from "@/components/ProjectSection";
 import Breadcrumb from '@/components/Breadcrumb';
-import ApproachDetailSection from "@/components/layout/ApproachDetailSection";
 
 import baseMetaData from '../files/meta.json';
 
@@ -110,7 +109,6 @@ export default function Approach() {
         />
       </Head>
       <Breadcrumb items={breadcrumbItems} />
-      <ApproachDetailSection   />
       <StrategySection /> {/* Component displaying your approach */}
       <ProjectSection />
       <ServicesSection />

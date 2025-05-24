@@ -668,4 +668,20 @@ p.home_banner { display: block; font-size: 14px; padding: 0 20px;}
 
 .banner_textbox p.banner_sub_text {padding: 0 20px; font-size: 16px; line-height: 20px;}
 .rendom .text p { width: 80%;}
+
+.approach_heading { gap: 0;}
+.approach_wrap .test_sec .appro_wrap {
+	width: 100%;
+	gap: 0;
+}
+
+.approach_details .approach_heading h1 { font-size: 32px; }
+
+.approach_details .approach_heading p { width: 100%; }
+
+.approach_wrap .test_sec:nth-child(even), .approach_wrap .test_sec:nth-child(odd) {
+	display: flex;
+	justify-content: center;
+}
+
 }
