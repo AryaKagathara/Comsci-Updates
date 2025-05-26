@@ -79,10 +79,10 @@ export default function Blogs({ blogsData }) {
 
       "@type": "BlogPosting",
 
-      "@id": `${BASE_URL}/blogs/${blog.link}`,
+      "@id": `${BASE_URL}/blog/${blog.link}`,
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": `${BASE_URL}/blogs/${blog.link}`
+        "@id": `${BASE_URL}/blog/${blog.link}`
       },
       "headline": blog.title,
       "description": blog.subtitle || blog.title,
