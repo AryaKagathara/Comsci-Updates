@@ -310,7 +310,7 @@
         "description": "Paperman's Coffeehouse is a beloved chain of three neighbourhood coffeehouses in the Cayman Islands, known for its unique island spirit, locally roasted coffee, and delicious food.",
         "meta_title": "Paperman's Coffeehouse Webflow Website Development",
         "meta_description": "Explore the case study of the Webflow website development for Paperman's Coffeehouse, showcasing their brand story, menu, and multiple locations in the Cayman Islands.",
-        "image": "/images/projects/Papermans-Coffeehouse-1.webp",
+        "image": "/images/projects/Papermans-Coffeehouse-0.webp",
         "images": [
             "/images/projects/Papermans-Coffeehouse-1.webp",
             "/images/projects/Papermans-Coffeehouse-2.webp",
@@ -321,7 +321,8 @@
             "/images/projects/Papermans-Coffeehouse-7.webp",
             "/images/projects/Papermans-Coffeehouse-8.webp",
             "/images/projects/Papermans-Coffeehouse-9.webp",
-            "/images/projects/Papermans-Coffeehouse-10.webp"
+            "/images/projects/Papermans-Coffeehouse-10.webp",
+            "/images/projects/Papermans-Coffeehouse-11.webp"
         ],
         "link": "paperman-coffeehouse",
         "technologies": [
