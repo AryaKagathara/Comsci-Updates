@@ -10,10 +10,17 @@ const JobpositionSection = () => {
 				<div className="container">
 					<div className="jobposition_section">
 						<div className="text_box fadeInUp">
-							<ContentBox title="Job Position" />
+							<h3>Job Position</h3>
 							<div className="connect_box">
-								<ContentBox text="Join our team where diversity is celebrated, and we welcome talent from different industries and countries. Even if a specific job isn't available, we encourage you to reach out. We believe in the power of collaboration and are always looking for passionate individuals to join our community. Your skills and unique perspective could be the perfect fit for our next exciting project!" />
-								<Link href={`mailto:${contactData.email}`}>Send your resume</Link>
+								<ContentBox text="We’re on the lookout for people who want to create. We build actionable plans, innovative experiences and use our creative talent to execute a bold vision on time, on budget and on point. If this sounds like something that’s up your alley, have a look-see at your potential dream job. Don't see the position you’re looking for? Get in touch anyway." />
+								<Link href={`mailto:${contactData.email}?subject=JOB - Interested to join Comsci`}>Send your resume</Link>
+							</div>
+						</div>
+						<div className="text_box fadeInUp">
+							<h3>Interns :)</h3>
+							<div className="connect_box">
+								<ContentBox text="Have a creative mind and a dedicated spirit? Our door is always open for interns who are eager to learn, contribute, and grow. If you're passionate about building innovative experiences from the ground up, we'd love to see your resume." />
+								<Link href={`mailto:${contactData.email}?subject=INTERN - Interested to join Comsci`}>Send your interesting resume</Link>
 							</div>
 						</div>
 						{/* <Accordion defaultActiveKey="0">
