@@ -305,7 +305,124 @@
         ]
     },
     {
+        "id": 6,
+        "title": "Roberto Bolle Foundation Italy Website",
+        "description": "Developed a sleek and engaging website for the Roberto Bolle Foundation, showcasing its mission to promote dance and cultural initiatives worldwide. The site features a seamless user experience, elegant design, and intuitive navigation to highlight the foundation’s impactful work.",
+        "meta_title": "Roberto Bolle Foundation Italy Website Case Study | Comsci",
+        "meta_description": "Explore the website project by Comsci for the Roberto Bolle Foundation in Italy. We built a sleek site showcasing dance & cultural initiatives globally.",
+        "image": "/images/projects/Roberto-Bolle-1.webp",
+        "images": [
+            "/images/projects/Roberto-Bolle-1.webp",
+            "/images/projects/Roberto-Bolle-2.webp",
+            "/images/projects/Roberto-Bolle-3.webp",
+            "/images/projects/Roberto-Bolle-4.webp",
+            "/images/projects/Roberto-Bolle-5.webp",
+            "/images/projects/Roberto-Bolle-6.webp",
+            "/images/projects/Roberto-Bolle-7.webp",
+            "/images/projects/Roberto-Bolle-8.webp",
+            "/images/projects/Roberto-Bolle-9.webp"
+        ],
+        "link": "roberto-bolle-foundation",
+        "external-link": "https://fondazionerobertobolle.org",
+        "technologies": [
+            "Photoshop",
+            "Figma",
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "WordPress",
+            "PHP",
+            "SQL Database",
+            "Advanced Custom Fields (ACF)",
+            "SEO"
+        ],
+        "category": [
+            "Logo & Branding",
+            "UX UI Design",
+            "Web Design & Development",
+            "Search Engine Optimization (SEO)"
+        ],
+        "industry": [
+            "Entertainment & Events"
+        ],
+        "content": [
+            {
+                "tag": "p",
+                "content": "Our project focused on designing and developing the authoritative website for the Roberto Bolle Foundation Italy, the organization founded by the internationally acclaimed étoile Roberto Bolle. The Foundation is dedicated to fostering the art of dance and spreading its positive influence, especially for young dancers. The website needed to function as a central digital hub, elegantly showcasing the Foundation's significant work, cultural projects, events, and initiatives while providing easy navigation and comprehensive information for an international audience interested in supporting or learning about dance in Italy. This work involved <a href='https://comsci.tech/services/website-web-application'>web development</a> and supporting design efforts."
+            },
+            {
+                "tag": "p",
+                "content": "The development process prioritized creating a high-quality <a href='https://comsci.tech/services/ux-ui-designing'>online experience</a> that matched the Foundation's reputation. We implemented a sleek, elegant design and intuitive navigation structure, ensuring a seamless journey for users browsing on any device. Key functionalities developed include dedicated sections for exploring detailed information about ongoing projects, archived events, the Foundation's history, and easy access to contact information. This user-centric approach, refined through stages using Figma and Photoshop, ensures that visitors can efficiently find and engage with the content that matters most, highlighting the Foundation's impact and vision for <a href='https://comsci.tech/industries/entertainment-events'>dance promotion and cultural initiatives</a>."
+            },
+            {
+                "tag": "p",
+                "content": "From a technical perspective, the Roberto Bolle Foundation website is built upon a flexible WordPress CMS powered by PHP and a robust SQL Database. We implemented modern HTML5, CSS3, and JavaScript for the responsive frontend, ensuring optimal performance and visual integrity. Extensive use of Advanced Custom Fields (ACF) was central to empowering the client to manage diverse content types easily and without technical expertise. Beyond core <a href='https://comsci.tech/services/website-web-application'>web development</a>, our work included integrating necessary site functionality and applying thorough <a href='https://comsci.tech/services/search-engine-optimization'>SEO strategies</a> from the outset to ensure the platform ranks effectively and connects the Foundation with individuals searching for information related to <a href='https://comsci.tech/industries/entertainment-events'>dance foundations, cultural initiatives in Italy</a>, and Roberto Bolle's projects."
+            }
+        ]
+    },
+    {
         "id": 7,
+        "title": "One Stop Pizza - Branding & Web App Development",
+        "description": "A fresh brand identity and a user-friendly web application for One Stop Pizza, enabling seamless online ordering and delivery for their customers in Leicester. We cooked up a visually appealing brand and a robust platform that makes getting a delicious pizza just a few clicks away.",
+        "meta_title": "One Stop Pizza | Branding & Web App Development Case Study",
+        "meta_description": "Discover how Comsci crafted a new brand identity and developed a custom online ordering web app for One Stop Pizza, enhancing their digital presence and customer experience.",
+        "alt": "One Stop Pizza online ordering web application interface on desktop and mobile - Comsci",
+        "image": "/images/projects/One-Stop-Pizza-0.webp",
+        "images": [
+            "/images/projects/One-Stop-Pizza-1.webp",
+            "/images/projects/One-Stop-Pizza-2.webp",
+            "/images/projects/One-Stop-Pizza-3.webp",
+            "/images/projects/One-Stop-Pizza-4.webp",
+            "/images/projects/One-Stop-Pizza-5.webp",
+            "/images/projects/One-Stop-Pizza-6.webp",
+            "/images/projects/One-Stop-Pizza-7.webp",
+            "/images/projects/One-Stop-Pizza-8.webp",
+            "/images/projects/One-Stop-Pizza-9.webp",
+            "/images/projects/One-Stop-Pizza-10.webp",
+            "/images/projects/One-Stop-Pizza-11.webp",
+            "/images/projects/One-Stop-Pizza-12.webp"
+        ],
+        "link": "one-stop-pizza-leicester-uk",
+        "technologies": [
+            "Photoshop",
+            "Figma",
+            "HTML5",
+            "CSS3",
+            "NextJS",
+            "JavaScript",
+            "NodeJS",
+            "MongoDB Database",
+            "REST API",
+            "Payment Gateway Integration",
+            "SEO"
+        ],
+        "category": [
+            "Logo & Branding",
+            "UX UI Design",
+            "Web Design",
+            "Web Development",
+            "Search Engine Optimization (SEO)"
+        ],
+        "industry": [
+            "Food & Beverage"
+        ],
+        "content": [
+            {
+                "tag": "p",
+                "content": "We partnered with One Stop Pizza, a popular Leicester-based pizzeria, to build a vibrant digital storefront from the ground up. Our primary goal was to design a memorable <a href='https://comsci.tech/services/logo-design-branding'>brand identity</a> and develop a custom <a href='https://comsci.tech/services/website-web-application'>web application</a> that streamlines the entire online ordering process for their customers."
+            },
+            {
+                "tag": "p",
+                "content": "The project kicked off with the creation of a fresh and modern logo, setting the tone for the entire brand. From there, our <a href='https://comsci.tech/services/ux-ui-designing'>UX/UI design</a> team crafted a seamless and intuitive user journey. We focused on creating a visually engaging interface that allows customers to easily browse the menu, customize their pizzas with their favorite toppings, and complete their orders swiftly and securely."
+            },
+            {
+                "tag": "p",
+                "content": "The result is a responsive and high-performing e-commerce platform that works beautifully on any device. We built a powerful backend to ensure smooth order management for the restaurant staff. To help One Stop Pizza capture more local business, we implemented a comprehensive <a href='https://comsci.tech/services/search-engine-optimization'>SEO strategy</a>, boosting their visibility in local search results. This case study highlights our capability in delivering end-to-end solutions that blend creative branding with robust technology."
+            }
+        ]
+    },
+    {
+        "id": 8,
         "title": "BLKResumes USA Recruitment Platform",
         "description": "BLKResumes is a dynamic and inclusive hiring and job search platform designed for professionals seeking career opportunities, with a focus on connecting black and brown talent in various industries.",
         "meta_title": "BLKResumes USA Recruitment Platform Development",
@@ -365,7 +482,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "W3Dart Bug Reporting SaaS Tool",
         "description": "W3Dart is a powerful visual feedback and bug reporting tool designed for developers and designers. Streamline collaboration with annotated screenshots, video screen capture, and seamless task management.",
         "meta_title": "W3Dart SaaS Bug Reporting Tool Development by Comsci",
@@ -426,62 +543,6 @@
             {
                 "tag": "p",
                 "content": "The technical foundation for W3dart showcases our expertise in building robust <a href='https://comsci.tech/services/website-web-application'>SaaS applications</a>. We architected the web platform using the powerful Laravel PHP framework for the backend and a secure SQL Database for data management. The interactive frontend was built using HTML5, CSS3, and JavaScript. Critical to the visual capture functionality was the development of a custom Chrome Extension. Real-time capabilities, likely for aspects of the visual capture or collaboration, were integrated using WebRTC and WebSockets. The platform also features REST API integrations, Payment Gateway Integration for the SaaS model, and strong Web Security measures. We applied comprehensive <a href='https://comsci.tech/services/search-engine-optimization'>SEO</a> strategies during development to maximize the platform's reach for technology and software users."
-            }
-        ]
-    },
-    {
-        "id": 9,
-        "title": "Roberto Bolle Foundation Italy Website",
-        "description": "Developed a sleek and engaging website for the Roberto Bolle Foundation, showcasing its mission to promote dance and cultural initiatives worldwide. The site features a seamless user experience, elegant design, and intuitive navigation to highlight the foundation’s impactful work.",
-        "meta_title": "Roberto Bolle Foundation Italy Website Case Study | Comsci",
-        "meta_description": "Explore the website project by Comsci for the Roberto Bolle Foundation in Italy. We built a sleek site showcasing dance & cultural initiatives globally.",
-        "image": "/images/projects/Roberto-Bolle-1.webp",
-        "images": [
-            "/images/projects/Roberto-Bolle-1.webp",
-            "/images/projects/Roberto-Bolle-2.webp",
-            "/images/projects/Roberto-Bolle-3.webp",
-            "/images/projects/Roberto-Bolle-4.webp",
-            "/images/projects/Roberto-Bolle-5.webp",
-            "/images/projects/Roberto-Bolle-6.webp",
-            "/images/projects/Roberto-Bolle-7.webp",
-            "/images/projects/Roberto-Bolle-8.webp",
-            "/images/projects/Roberto-Bolle-9.webp"
-        ],
-        "link": "roberto-bolle-foundation",
-        "external-link": "https://fondazionerobertobolle.org",
-        "technologies": [
-            "Photoshop",
-            "Figma",
-            "HTML5",
-            "CSS3",
-            "JavaScript",
-            "WordPress",
-            "PHP",
-            "SQL Database",
-            "Advanced Custom Fields (ACF)",
-            "SEO"
-        ],
-        "category": [
-            "Logo & Branding",
-            "UX UI Design",
-            "Web Design & Development",
-            "Search Engine Optimization (SEO)"
-        ],
-        "industry": [
-            "Entertainment & Events"
-        ],
-        "content": [
-            {
-                "tag": "p",
-                "content": "Our project focused on designing and developing the authoritative website for the Roberto Bolle Foundation Italy, the organization founded by the internationally acclaimed étoile Roberto Bolle. The Foundation is dedicated to fostering the art of dance and spreading its positive influence, especially for young dancers. The website needed to function as a central digital hub, elegantly showcasing the Foundation's significant work, cultural projects, events, and initiatives while providing easy navigation and comprehensive information for an international audience interested in supporting or learning about dance in Italy. This work involved <a href='https://comsci.tech/services/website-web-application'>web development</a> and supporting design efforts."
-            },
-            {
-                "tag": "p",
-                "content": "The development process prioritized creating a high-quality <a href='https://comsci.tech/services/ux-ui-designing'>online experience</a> that matched the Foundation's reputation. We implemented a sleek, elegant design and intuitive navigation structure, ensuring a seamless journey for users browsing on any device. Key functionalities developed include dedicated sections for exploring detailed information about ongoing projects, archived events, the Foundation's history, and easy access to contact information. This user-centric approach, refined through stages using Figma and Photoshop, ensures that visitors can efficiently find and engage with the content that matters most, highlighting the Foundation's impact and vision for <a href='https://comsci.tech/industries/entertainment-events'>dance promotion and cultural initiatives</a>."
-            },
-            {
-                "tag": "p",
-                "content": "From a technical perspective, the Roberto Bolle Foundation website is built upon a flexible WordPress CMS powered by PHP and a robust SQL Database. We implemented modern HTML5, CSS3, and JavaScript for the responsive frontend, ensuring optimal performance and visual integrity. Extensive use of Advanced Custom Fields (ACF) was central to empowering the client to manage diverse content types easily and without technical expertise. Beyond core <a href='https://comsci.tech/services/website-web-application'>web development</a>, our work included integrating necessary site functionality and applying thorough <a href='https://comsci.tech/services/search-engine-optimization'>SEO strategies</a> from the outset to ensure the platform ranks effectively and connects the Foundation with individuals searching for information related to <a href='https://comsci.tech/industries/entertainment-events'>dance foundations, cultural initiatives in Italy</a>, and Roberto Bolle's projects."
             }
         ]
     },
@@ -715,7 +776,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 14,
         "title": "KV Energy Revenue",
         "description": "KV Energy Revenue is a premier energy solutions provider in India, focused on transforming energy conservation into a revenue-generating asset for industrial and commercial businesses.",
         "meta_title": "KV Energy Revenue WordPress Website Development | Comsci",
