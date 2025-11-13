@@ -44,6 +44,11 @@ const Footer = () => {
 											</Link>
 										</li>
 									))}
+									<li>
+										<Link href={`/resources/social-media-posts`}>
+											Social Media Campaign
+										</Link>
+									</li>
 								</ul>
 							</div>
 							<div className="social_media industries_block">
