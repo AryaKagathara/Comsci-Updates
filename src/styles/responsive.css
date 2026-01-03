@@ -657,7 +657,7 @@ h5 { font-size: 32px; }
 @media (max-width: 767px) {
 
 h1.home_banner { font-size: 34px; padding: 0 20px;}
-p.home_banner { display: block; font-size: 14px; padding: 0 20px;}
+h2.home_banner { display: block; font-size: 14px; padding: 0 20px;}
 .process_section .caption_box h1 { font-size: 34px; }
 
 .book-block .desktop-show { width: 400px;}

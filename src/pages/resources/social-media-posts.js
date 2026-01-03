@@ -45,7 +45,7 @@ const SocialMediaSlider = ({ posts, rtl = false, speed = 10000 }) => {
                     <div key={post.id} className="social-post-slide">
                         <Image
                             src={post.imageUrl} alt={post.alt} width={300} height={300}
-                            quality={90} className="social-post-image" />
+                            quality={100} className="social-post-image" />
                     </div>
                 ))}
             </Slider>

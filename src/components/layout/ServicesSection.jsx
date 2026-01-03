@@ -46,7 +46,7 @@ const ServicesSection = ({ isHome }) => {
       <div className="services">
         <div className="container">
           <div className="service_heading" data-scroll data-scroll-speed=".2">
-            <strong>
+            <h2>
             We engineer bespoke digital solutions from <span className="primary-text">web design to robust AI software</span> driving measurable results for industry leaders 
               <div className="globe">
                 w
@@ -55,7 +55,7 @@ const ServicesSection = ({ isHome }) => {
                 </div>
                 rldwide.
               </div>
-            </strong>
+            </h2>
           </div>
           {/*desktop version*/}
           <div className="service_tabsection d-none d-lg-block">

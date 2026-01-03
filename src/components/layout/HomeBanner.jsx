@@ -27,10 +27,9 @@ const HomeBanner = () => {
 								</div>
 								<span>TRUSTED 5 STAR</span>
 							</div>
-							<p>Premier Design & Development Partner</p>
 						</div>
-						<h1 className="fadeInUp">We help business evolve</h1>
-							<p class="fadeInUp banner_sub_text">We collaborate with companies worldwide, offering top-notch web design, custom software solutions, mobile apps, and strategic branding to boost your online visibility.</p>
+						<h1 className="fadeInUp">Creative Design Agency that helps business evolve</h1>
+							<h2 class="fadeInUp banner_sub_text">We collaborate with companies worldwide, offering top-notch web design, custom software solutions, mobile apps, and strategic branding to boost your online visibility.</h2>
 						<div className='fadeInUp learn_btn_2'>
 							<Link href="/services">Explore Our Services</Link>
 						</div>
