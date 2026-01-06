@@ -1,4 +1,4 @@
-export const BASE_URL = "https://www.comsci.tech";
+export const BASE_URL = "https://comsci.tech";
 
 export const organizationSchema = {
   "@context": "https://schema.org",
