@@ -7,21 +7,21 @@ const ProjectPage = () => {
 
   useEffect(() => {
     // Fetch your projects data here (replace with your actual logic)
-		const fetchProjectsData = async () => {
-			try {
-				// If 'projects.json' is a local file:
-				const response = await import('../files/projects.json'); 
-				return response.default; // Access the default export
-			} catch (error) {
-				console.error("Error fetching project data:", error);
-				return []; // Return an empty array in case of error
-			}
-		};
+    const fetchProjectsData = async () => {
+      try {
+        // If 'projects.json' is a local file:
+        const response = await import('../files/projects.json');
+        return response.default; // Access the default export
+      } catch (error) {
+        console.error("Error fetching project data:", error);
+        return []; // Return an empty array in case of error
+      }
+    };
 
-		fetchProjectsData().then(projectsData => {
-			const sortedProjects = projectsData.sort((a, b) => a.id - b.id);
-			setProjects(sortedProjects);
-		});
+    fetchProjectsData().then(projectsData => {
+      const sortedProjects = projectsData.sort((a, b) => a.id - b.id);
+      setProjects(sortedProjects);
+    });
 
 
   }, []);
@@ -31,7 +31,7 @@ const ProjectPage = () => {
       <div className="project">
         <div className="container">
           <div className="project_section">
-          <div className="project_title fadeInUp">
+            <div className="project_title fadeInUp">
               <ContentBox title="Browse our projects for a glimpse into our past work." />
             </div>
             <div className="projectlist_section">

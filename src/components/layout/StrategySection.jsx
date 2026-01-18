@@ -46,7 +46,7 @@ const StrategySection = () => {
 						<div className="row">
 							<div className="col-lg-5">
 								<div className="text_section fadeInUp">
-									<h3>Our Proven Process: From Strategy to High-Performance Code</h3>
+									<h2>Our Proven Process: From Strategy to High-Performance Code</h2>
 								</div>
 							</div>
 							<div className="col-lg-6 offset-lg-1">
@@ -54,7 +54,7 @@ const StrategySection = () => {
 									<div className="step_box">
 										<div className="image_content">
 											<div className="img_box">
-												<Image src={StrategyImg1} alt="Comsci digital strategy planning icon" quality={100}/>
+												<Image src={StrategyImg1} alt="Comsci digital strategy planning icon" quality={100} />
 											</div>
 											<div className="content_box">
 												<span>Strategy</span>
@@ -63,7 +63,7 @@ const StrategySection = () => {
 										</div>
 										<div className="image_content">
 											<div className="img_box">
-												<Image src={StrategyImg2} alt="Comsci creative UX/UI design icon" quality={100}/>
+												<Image src={StrategyImg2} alt="Comsci creative UX/UI design icon" quality={100} />
 											</div>
 											<div className="content_box">
 												<span>Creative Design</span>
@@ -72,7 +72,7 @@ const StrategySection = () => {
 										</div>
 										<div className="image_content">
 											<div className="img_box">
-												<Image src={StrategyImg3} alt="Comsci agile development process icon" quality={100}/>
+												<Image src={StrategyImg3} alt="Comsci agile development process icon" quality={100} />
 											</div>
 											<div className="content_box">
 												<span>Development & Implementation</span>
@@ -81,7 +81,7 @@ const StrategySection = () => {
 										</div>
 										<div className="image_content">
 											<div className="img_box">
-												<Image src={StrategyImg4} alt="Comsci QA testing symbol" quality={100}/>
+												<Image src={StrategyImg4} alt="Comsci QA testing symbol" quality={100} />
 											</div>
 											<div className="content_box">
 												<span>Quality Assurance Testing</span>
@@ -90,7 +90,7 @@ const StrategySection = () => {
 										</div>
 										<div className="image_content">
 											<div className="img_box">
-												<Image src={StrategyImg5} alt="Comsci project delivery checklist icon" quality={100}/>
+												<Image src={StrategyImg5} alt="Comsci project delivery checklist icon" quality={100} />
 											</div>
 											<div className="content_box">
 												<span>Launch & Delivery</span>

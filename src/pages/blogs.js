@@ -19,8 +19,8 @@ export default function Blogs({ blogsData }) {
   const pageUrl = `${BASE_URL}${router.asPath}`;
 
   const customMeta = {
-"title": "Comsci Blog | Design & Development Insights & Trends",
-    "description": "Stay ahead with the Comsci blog. Get expert insights & the latest trends in design & development, web, app, software, AI, & branding.",
+    "title": "Comsci Blog | Web Dev Insights & Design Trends",
+    "description": "Stay ahead with our latest articles on Web Development trends, AI innovations, UI/UX best practices, and digital strategy guides.",
     "keywords": [
       "comsci blog", "design development blog", "web design blog", "app development blog", "software development insights", "branding blog", "AI industry trends", "digital marketing blog", "expert advice tech", "artificial intelligence solutions blog", "insights design development", "latest tech trends"
     ],
@@ -62,7 +62,7 @@ export default function Blogs({ blogsData }) {
   const currentPageMeta = { ...baseMetaData, ...customMeta };
 
   const pageSchema = {
-
+    "@context": "https://schema.org",
     "@type": "Blog",
     "@id": pageUrl,
     "url": pageUrl,

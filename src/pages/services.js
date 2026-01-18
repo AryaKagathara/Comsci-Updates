@@ -21,8 +21,8 @@ export default function ServicesPage({ servicesData }) {
   const pageUrl = `${BASE_URL}${router.asPath}`;
 
   const customMeta = {
-    title: "Comsci | Full Digital Design & Development Services",
-    description: "Explore Comsci's digital design & development services. Get bespoke web, app, software, branding, AI & SEO solutions driving measurable results.",
+    title: "Full-Service Digital Agency: Design, Dev & AI | Comsci",
+    description: "Explore Comsci's expert services: Custom Web Development, UI/UX Design, Mobile Apps, and AI Solutions. Tailored for scalable business growth.",
     keywords: [
       "comsci services",
       "design development services",
@@ -75,7 +75,7 @@ export default function ServicesPage({ servicesData }) {
   const currentPageMeta = { ...baseMetaData, ...customMeta };
 
   const pageSchema = {
-
+    "@context": "https://schema.org",
     "@type": "CollectionPage",
     "@id": pageUrl,
     "url": pageUrl,

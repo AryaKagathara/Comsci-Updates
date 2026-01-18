@@ -10,7 +10,7 @@ const BlogpageSection = () => {
 				<div className="container">
 					<div className="blog_section">
 						<div className="blogpage_wrapper">
-							<ContentBox title="Existing insights and articles" />
+							<ContentBox title="Digital Trends, Tech Insights & Agency News" />
 						</div>
 						{/* <div className="filter_btn">
 							<ul>

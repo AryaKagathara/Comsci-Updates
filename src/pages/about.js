@@ -24,8 +24,8 @@ export default function About() {
   const pageUrl = `${BASE_URL}${router.asPath}`;
 
   const customMeta = {
-    title: "About Comsci | Design & Development Agency, Story & Values",
-    description: "Learn about Comsci, a design & development agency partnered globally with businesses in Europe & USA. Read our story, mission & values driving innovative web, app, branding solutions.",
+    title: "About Comsci | Design & Development Agency Story",
+    description: "Meet the team behind Comsci. We are a strategic design and software development agency empowering businesses in the USA, UK, Australia & Europe through innovation.",
     keywords: [
       "about comsci", "comsci technologies", "design and development agency", "web design agency", "mobile app development company", "branding agency", "tech company mission", "company values", "arya kagathara founder", "digital agency europe", "digital agency usa", "innovation in tech"
     ],
@@ -67,6 +67,7 @@ export default function About() {
   const currentPageMeta = { ...baseMetaData, ...customMeta };
 
   const pageSchema = {
+    "@context": "https://schema.org",
     "@type": "AboutPage",
     "@id": pageUrl,
     "url": pageUrl,
@@ -111,7 +112,7 @@ export default function About() {
         />
       </Head>
       <Breadcrumb items={breadcrumbItems} />
-      <Banner/>
+      <Banner />
       <AboutSection />
       <Letter />
       <RendomLogo />

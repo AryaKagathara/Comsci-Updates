@@ -21,8 +21,8 @@ export default function Industries({ industriesData }) {
   const pageUrl = `${BASE_URL}${router.asPath}`;
 
   const customMeta = {
-    title: "Comsci | Industries Served - Tailored Digital Solutions",
-    description: "Explore industries Comsci serves: Healthcare, Web3, Real Estate, Fintech & more. Get tailored web, app & software solutions to help your business thrive globally.",
+    title: "Industries We Serve | Tailored Tech Solutions",
+    description: "Expert digital solutions tailored for your sector. From Fintech to Healthcare, discover how our domain expertise accelerates your growth.",
     keywords: [
       "comsci industries served", "industries digital agency", "tech solutions by industry", "healthcare software solutions", "web3 development company", "real estate tech solutions", "ecommerce development agency", "fintech software company", "digital transformation by sector", "industry specific software", "tailored tech solutions", "digital services by industry"
     ],
@@ -64,7 +64,7 @@ export default function Industries({ industriesData }) {
   const currentPageMeta = { ...baseMetaData, ...customMeta };
 
   const pageSchema = {
-
+    "@context": "https://schema.org",
     "@type": "CollectionPage",
     "@id": pageUrl,
     "url": pageUrl,

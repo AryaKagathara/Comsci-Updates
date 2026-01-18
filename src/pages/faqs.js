@@ -19,8 +19,8 @@ export default function Faqs({ faqsData }) {
   const pageUrl = `${BASE_URL}${router.asPath}`;
 
   const customMeta = {
-    title: "Comsci | FAQs About Design & Development Services",
-    description: "Get answers to frequently asked questions about Comsci. Find details on our design & development services, process, pricing, & how we partner globally.",
+    title: "FAQs | Development Process & Engagement Models",
+    description: "Have questions? Find clear answers about our pricing structure, agile development process, project timelines, and support packages.",
     keywords: [
       "comsci faqs", "frequently asked questions agency", "design agency faq", "development agency faq", "web design faq", "app development faq", "software development faq", "digital agency faq", "comsci process", "how does comsci work", "digital project questions", "comsci pricing"
     ],

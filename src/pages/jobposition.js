@@ -17,23 +17,23 @@ export default function JobPosition({ jobsData = [] }) {
     const pageUrl = `${BASE_URL}${router.asPath}`;
 
     const customMeta = {
-        title: "Comsci Careers | Join Our Design & Development Team",
-        description: "Explore exciting job opportunities at Comsci! Join our talented team of design, development, and tech professionals. Apply now to build innovative digital solutions.",
+        title: "Careers at Comsci | Hiring Developers & Designers",
+        description: "Build the future of tech. Explore remote and onsite job openings for talented developers, designers, and project managers. Apply today!",
         keywords: [
-          "comsci jobs", "careers at comsci", "design development jobs", "web design careers", "mobile app developer jobs", "software engineer jobs", "tech company jobs india", "digital agency jobs", "it jobs rajkot", "creative agency careers", "join tech team", "job openings design dev"
+            "comsci jobs", "careers at comsci", "design development jobs", "web design careers", "mobile app developer jobs", "software engineer jobs", "tech company jobs india", "digital agency jobs", "it jobs rajkot", "creative agency careers", "join tech team", "job openings design dev"
         ],
         og: {
-          title: "Comsci Careers - Explore Job Opportunities",
-          description: "Ready to advance your career in tech? Explore current job openings and join the Comsci team.",
-          url: pageUrl,
+            title: "Comsci Careers - Explore Job Opportunities",
+            description: "Ready to advance your career in tech? Explore current job openings and join the Comsci team.",
+            url: pageUrl,
         },
         twitter: {
-          title: "Comsci Careers - Explore Job Opportunities",
-          description: "Ready to advance your career in tech? Explore current job openings and join the Comsci team.",
-          url: pageUrl,
+            title: "Comsci Careers - Explore Job Opportunities",
+            description: "Ready to advance your career in tech? Explore current job openings and join the Comsci team.",
+            url: pageUrl,
         },
         author: "Comsci - Arya Kagathara",
-      };
+    };
 
     const getMetaTags = (metaData, customMeta = {}) => {
         const mergedMeta = { ...metaData, ...customMeta };

@@ -516,7 +516,7 @@ p {
 }
 
 .banner_textbox h1 {
-  font-size: 96px;
+  font-size: 78px;
   color: var(--primary-white);
   max-width: 800px;
   text-align: center;
@@ -605,7 +605,7 @@ p {
   margin-bottom: 164px;
 }
 
-.service_tabsection .heading span {
+.service_tabsection .heading h2 {
   color: var(--primary-orange);
   font-size: 24px;
   font-weight: 500;
@@ -963,15 +963,24 @@ p {
   background: var(--primary-black);
 }
 
-.project_section .project_text {
+.project_section .project_text,
+.project_section .project_title {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 64px;
 }
 
-.project_section .project_text h3 {
+.project_section .project_title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.project_section .project_text h2,
+.project_section .project_title h2 {
   color: var(--primary-white);
+  font-size: 38px;
   font-weight: 700;
   margin: 0;
   max-width: 640px;
@@ -1215,8 +1224,9 @@ p {
   margin-bottom: 64px;
 }
 
-.tech_section .text_box h3 {
+.tech_section .text_box h2 {
   color: var(--primary-white);
+  font-size: 38px;
   font-weight: 700;
   max-width: 530px;
   margin: 0;
@@ -1277,7 +1287,8 @@ p {
   margin-bottom: 64px;
 }
 
-.faq_section .text_box h3 {
+.faq_section .text_box h2 {
+  font-size: 38px;
   color: var(--primary-black);
   font-weight: 700;
   max-width: 660px;
@@ -1333,7 +1344,8 @@ p {
   background: var(--primary-black);
 }
 
-.strategy_section .text_section h3 {
+.strategy_section .text_section h2 {
+  font-size: 38px;
   color: var(--primary-white);
   font-weight: 700;
   margin: 0;
@@ -1448,7 +1460,8 @@ p {
   margin-bottom: 64px;
 }
 
-.blog_section .blog_text h3 {
+.blog_section .blog_text h2 {
+  font-size: 38px;
   color: var(--primary-black);
   font-weight: 700;
   margin: 0;

@@ -35,7 +35,7 @@ const RendomLogo = () => {
 				<div className="container">
 					<div className="text mt-2" data-scroll data-scroll-speed=".1">
 						<h2>Trusted by</h2>
-						<p className="my-4">We take pride in partnering with a diverse array of clients across Europe, the USA, and beyond, delivering impactful digital solutions that result in measurable success.</p>
+						<p className="my-4">We take pride in partnering with a diverse array of clients across Europe, UK, Australia and the USA, and beyond, delivering impactful digital solutions that result in measurable success.</p>
 					</div>
 					<div className="logo_section" id="ren_logo" data-scroll data-scroll-speed=".4">
 						{numbers.map((num) => (

@@ -4,10 +4,10 @@ import Accordion from 'react-bootstrap/Accordion';
 // import faqsData from '../../files/faqs.json';
 
 // Accept props: faqs, title, text
-const Faqsection = ({ faqs, title = "Frequently Asked Questions (FAQs)", text = "" }) => {
+const Faqsection = ({ faqs, title = "Frequently Asked Questions: Process, Pricing & Tech", text = "" }) => {
 
-    // Ensure faqs is an array before mapping
-    const faqList = Array.isArray(faqs) ? faqs : [];
+	// Ensure faqs is an array before mapping
+	const faqList = Array.isArray(faqs) ? faqs : [];
 
 	// Don't render the component if there are no FAQs
 	if (faqList.length === 0) {

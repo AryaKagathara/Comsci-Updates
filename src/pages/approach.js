@@ -21,8 +21,8 @@ export default function Approach() {
   const pageUrl = `${BASE_URL}${router.asPath}`;
 
   const customMeta = {
-    title: "Comsci | Our Strategic Design & Development Process",
-    description: "Discover Comsci's proven approach to digital success. Learn our strategic process from creative design & development to quality testing & launch for your project.",
+    title: "Our Process | From Strategy to Product Launch",
+    description: "Discover how we work. Our data-driven, agile process ensures transparency, code quality, and speed for every digital product we build.",
     keywords: [
       "comsci approach", "design development process", "web development process", "app development process", "digital project methodology", "agile process", "project lifecycle", "creative design process", "development stages", "quality assurance testing", "strategic approach", "digital solution process"
     ],
@@ -62,7 +62,7 @@ export default function Approach() {
     });
   };
 
-  
+
   const currentPageMeta = { ...baseMetaData, ...customMeta };
 
   const pageSchema = {
@@ -110,7 +110,7 @@ export default function Approach() {
         />
       </Head>
       <Breadcrumb items={breadcrumbItems} />
-      <ApproachDetailSection   />
+      <ApproachDetailSection />
       <StrategySection /> {/* Component displaying your approach */}
       <ProjectSection />
       <ServicesSection />

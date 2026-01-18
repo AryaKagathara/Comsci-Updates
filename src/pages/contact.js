@@ -15,8 +15,8 @@ export default function Contact() {
   const pageUrl = `${BASE_URL}${router.asPath}`;
 
   const customMeta = {
-    title: "Contact Us | Comsci - Design & Development Inquiry",
-    description: "Ready to start your next project? Contact Comsci, a global design & development agency. Discuss needs for web, app, branding, AI & custom software.",
+    title: "Contact Us | Hire Web & App Developers",
+    description: "Ready to start your project? Contact Comsci for a free consultation and quote. Let's discuss your web, app, or branding needs.",
     keywords: [
       "contact comsci", "comsci technologies contact", "get in touch design agency", "contact us web development", "app development inquiry", "request a quote digital agency", "software project contact", "branding services contact", "contact form design company", "inquire about services", "talk to design experts", "global agency contact"
     ],
@@ -58,6 +58,7 @@ export default function Contact() {
   const currentPageMeta = { ...baseMetaData, ...customMeta };
 
   const pageSchema = {
+    "@context": "https://schema.org",
     "@type": "ContactPage",
     "@id": pageUrl,
     "url": pageUrl,

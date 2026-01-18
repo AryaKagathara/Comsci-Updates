@@ -21,8 +21,8 @@ export default function Projects({ projectsData }) {
   const pageUrl = `${BASE_URL}${router.asPath}`;
 
   const customMeta = {
-    title: "Comsci | Portfolio of Design & Development Projects",
-    description: "Explore Comsci's project portfolio showcasing innovative web, app, and custom software development. See our tailored solutions for global clients.",
+    title: "Portfolio & Case Studies | Web & App Success Stories",
+    description: "See how we deliver results. Browse our portfolio of award-winning websites, custom apps, and branding projects for global clients.",
     keywords: [
       "comsci projects",
       "design development portfolio",
@@ -75,6 +75,7 @@ export default function Projects({ projectsData }) {
   const currentPageMeta = { ...baseMetaData, ...customMeta };
 
   const pageSchema = {
+    "@context": "https://schema.org",
     "@type": "CollectionPage",
     "@id": pageUrl,
     "url": pageUrl,

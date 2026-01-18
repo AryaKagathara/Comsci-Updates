@@ -2,7 +2,7 @@ import PrimaryBtn from '@/components/layout/PrimaryBtn';
 import ContentBox from "@/components/layout/ContentBox";
 
 const HomeProjectBox = () => {
-	
+
 	return (
 		<>
 			<div className="project_text fadeInUp">

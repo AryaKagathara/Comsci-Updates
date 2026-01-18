@@ -47,7 +47,7 @@ const ServicesSection = ({ isHome }) => {
         <div className="container">
           <div className="service_heading" data-scroll data-scroll-speed=".2">
             <h2>
-            We engineer bespoke digital solutions from <span className="primary-text">web design to robust AI software</span> driving measurable results for industry leaders 
+              We engineer bespoke digital solutions from <span className="primary-text">web design to robust AI software</span> driving measurable results for industry leaders
               <div className="globe">
                 w
                 <div className="world_img">
@@ -62,7 +62,7 @@ const ServicesSection = ({ isHome }) => {
             <Tab.Container id="tabs_wrapper" activeKey={activeTab} onSelect={(k) => setActiveTab(k)}>
               <div className="row">
                 <div className="heading">
-                  <span>Our Core Services</span>
+                  <h2>Our Strategic Design & Development Services</h2>
                 </div>
                 <div className="col-lg-6">
                   <div className="tab_section">

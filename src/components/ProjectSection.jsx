@@ -7,14 +7,14 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 
 const ProjectSection = () => {
-    const [projects, setProjects] = useState([]);
+	const [projects, setProjects] = useState([]);
 
 	useEffect(() => {
 		// Fetch your projects data here (replace with your actual logic)
 		const fetchProjectsData = async () => {
 			try {
 				// Assuming 'projects.json' is a local file in the same directory
-				const response = await import('../files/projects.json'); 
+				const response = await import('../files/projects.json');
 				return response.default; // Access default export
 			} catch (error) {
 				console.error("Error fetching project data:", error);
@@ -38,27 +38,27 @@ const ProjectSection = () => {
 
 	}, []);
 
-  return (
-      <div className="project">
-        <div className="container">
-          <div className="project_section">
-              <HomeProjectBox /> 
-            <div className="projectlist_section">
-              <div className="row">
-                  {projects.slice(0, 4).map((project, index) => ( 
-                    <div key={project.id} className={`col-lg-6 col-md-6 ${index % 2 === 0 ? 'even' : 'odd'}`}>
-                        <ProjectListSection project={project} />
-                    </div>
-                  ))}
-              </div>
-            </div>
-            <div className="projectbtn_wrap">
-                  <PrimaryBtn name="View more" arrow="no" link="/projects" />
-              </div>
-          </div>
-        </div>
-      </div>
-  );
+	return (
+		<div className="project">
+			<div className="container">
+				<div className="project_section">
+					<HomeProjectBox />
+					<div className="projectlist_section">
+						<div className="row">
+							{projects.slice(0, 4).map((project, index) => (
+								<div key={project.id} className={`col-lg-6 col-md-6 ${index % 2 === 0 ? 'even' : 'odd'}`}>
+									<ProjectListSection project={project} />
+								</div>
+							))}
+						</div>
+					</div>
+					<div className="projectbtn_wrap">
+						<PrimaryBtn name="View more" arrow="no" link="/projects" />
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default ProjectSection;

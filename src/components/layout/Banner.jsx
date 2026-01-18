@@ -17,7 +17,7 @@ const HomeBanner = () => {
 				<div className="container">
 					<div className="banner_textbox" data-scroll data-scroll-speed=".2">
 						<h1 className="fadeInUp home_banner">About Comsci Technologies: Your Partner in Digital Innovation</h1>
-						<h2 class="fadeInUp home_banner">We partner with forward-thinking businesses across Europe, the USA, and globally, transforming visions into impactful digital realities. We specialize in bespoke web design, custom software development, engaging mobile apps, and strategic branding that delivers results.</h2>
+						<h2 class="fadeInUp home_banner">Meet the team behind Comsci. We are a strategic design and software development agency empowering businesses in the USA, UK, Australia & Europe through innovation.</h2>
 					</div>
 				</div>
 			</div>

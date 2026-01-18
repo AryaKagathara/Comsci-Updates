@@ -76,6 +76,7 @@ export default function Privacy() {
   const currentPageMeta = { ...baseMetaData, ...customMeta };
 
   const pageSchema = {
+    "@context": "https://schema.org",
     "@type": "WebPage",
     "@id": pageUrl,
     "url": pageUrl,

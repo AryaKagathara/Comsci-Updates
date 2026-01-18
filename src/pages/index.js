@@ -51,6 +51,7 @@ export default function Home() {
   const currentPageMeta = { ...baseMetaData, ...customMeta };
 
   const pageSchema = {
+    "@context": "https://schema.org",
     "@type": "WebPage",
     "@id": pageUrl,
     "url": pageUrl,
@@ -62,7 +63,10 @@ export default function Home() {
 
   };
 
-  const finalSchema = [organizationSchema, websiteSchema, pageSchema];
+  const finalSchema = {
+    "@context": "https://schema.org",
+    "@graph": [organizationSchema, websiteSchema, pageSchema]
+  };
 
   return (
     <>

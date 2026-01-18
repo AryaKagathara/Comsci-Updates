@@ -42,31 +42,31 @@ const Awards = () => {
       tl.fromTo(element, animation.from, animation.to);
     };
 
-    animateElement(awardElBig.current,{
-      from:{
-        y: 400 
+    animateElement(awardElBig.current, {
+      from: {
+        y: 400
       },
       to: {
-        y: -1500 
-      } 
+        y: -1500
+      }
     });
-    animateElement(awardEl1.current,{
+    animateElement(awardEl1.current, {
       from: {
-        y: 400 
+        y: 400
       },
       to: {
         y: -1500,
         rotation: 360
       }
     });
-    animateElement(awardEl2.current,{
+    animateElement(awardEl2.current, {
       from: {
         y: 400
       },
       to: {
         y: -1500,
-        rotation: -360 
-      } 
+        rotation: -360
+      }
     });
     animateElement(awardEl3.current, {
       from: {
@@ -74,17 +74,17 @@ const Awards = () => {
       },
       to: {
         y: -1500,
-        rotation: 360 
-      } 
+        rotation: 360
+      }
     });
-    animateElement(awardEl4.current, { 
-      from: { 
-        y: 400 
+    animateElement(awardEl4.current, {
+      from: {
+        y: 400
       },
-      to: { 
+      to: {
         y: -1500,
-        rotation: -360 
-      } 
+        rotation: -360
+      }
     });
   }, []);
 
@@ -100,13 +100,13 @@ const Awards = () => {
               <Image src={Award1} alt="Abstract representation of excellence in UX design - Comsci award focus, Comsci design award trophy elements montage" ref={awardEl1} quality={100} />
             </div>
             <div className="second_img">
-              <Image src={Award2} alt="Abstract representation of excellence in UX design - Comsci award focus, Comsci design award trophy elements montage" ref={awardEl2} quality={100}/>
+              <Image src={Award2} alt="Abstract representation of excellence in UX design - Comsci award focus, Comsci design award trophy elements montage" ref={awardEl2} quality={100} />
             </div>
             <div className="third_img">
-              <Image src={Award3} alt="Abstract representation of excellence in UX design - Comsci award focus, Comsci design award trophy elements montage" ref={awardEl3} quality={100}/>
+              <Image src={Award3} alt="Abstract representation of excellence in UX design - Comsci award focus, Comsci design award trophy elements montage" ref={awardEl3} quality={100} />
             </div>
             <div className="fourth_img">
-              <Image src={Award4} alt="Abstract representation of excellence in UX design - Comsci award focus, Comsci design award trophy elements montage" ref={awardEl4} quality={100}/>
+              <Image src={Award4} alt="Abstract representation of excellence in UX design - Comsci award focus, Comsci design award trophy elements montage" ref={awardEl4} quality={100} />
             </div>
             <div className="award_text">
               <h2>Recognized Excellence in Design & User Experience</h2>
