@@ -1592,11 +1592,12 @@ p {
   justify-content: flex-start;
 }
 
-.blog_section .bloglist_section .listing_secting .list_wrap .blog_content .read_btn p {
+.blog_section .bloglist_section .listing_secting .list_wrap .blog_content .read_btn a {
   margin: 0;
   color: var(--primary-orange);
   font-size: 20px;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .blog_section .blogbtn_wrap {

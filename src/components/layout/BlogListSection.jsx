@@ -44,7 +44,7 @@ const BlogListSection = () => {
 							</div>
 							<h2 className="blog_title">{blog.title}</h2>
 							<div className="read_btn">
-								<p>Read now</p>
+								<a href={`/blog/${blog.link}`} target="_blank">Read now</a>
 							</div>
 						</div>
 					</Link>

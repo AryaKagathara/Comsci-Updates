@@ -41,7 +41,6 @@ export default function Privacy() {
       description: "Your privacy matters. Read our comprehensive privacy policy to understand our data practices and your rights.",
       url: pageUrl,
     },
-    robots: "noindex, nofollow",
     author: "Comsci - Arya Kagathara",
   };
 
