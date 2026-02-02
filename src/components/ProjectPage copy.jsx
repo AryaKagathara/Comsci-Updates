@@ -1,12 +1,30 @@
-// 1. Import the JSON directly at the top
-import projectsData from '../files/projects.json';
+import { useState, useEffect } from 'react';
 import ProjectListSection from "@/components/layout/ProjectListSection";
 import ContentBox from "@/components/layout/ContentBox";
 
 const ProjectPage = () => {
-  // 2. Sort the data immediately (No useEffect or useState needed)
-  // Ensure we sort a copy using [...projectsData] so we don't mutate the source
-  const projects = [...projectsData].sort((a, b) => a.id - b.id);
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    // Fetch your projects data here (replace with your actual logic)
+    const fetchProjectsData = async () => {
+      try {
+        // If 'projects.json' is a local file:
+        const response = await import('../files/projects.json');
+        return response.default; // Access the default export
+      } catch (error) {
+        console.error("Error fetching project data:", error);
+        return []; // Return an empty array in case of error
+      }
+    };
+
+    fetchProjectsData().then(projectsData => {
+      const sortedProjects = projectsData.sort((a, b) => a.id - b.id);
+      setProjects(sortedProjects);
+    });
+
+
+  }, []);
 
   return (
     <>
@@ -18,7 +36,6 @@ const ProjectPage = () => {
             </div>
             <div className="projectlist_section">
               <div className="row">
-                {/* 3. Render directly. The links will now exist in the Source Code. */}
                 {projects.map((project, index) => (
                   <div key={project.id} className={`col-lg-6 col-md-6 ${index % 2 === 0 ? 'even' : 'odd'}`}>
                     <ProjectListSection project={project} />
