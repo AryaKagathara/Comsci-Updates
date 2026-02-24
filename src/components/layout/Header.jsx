@@ -62,7 +62,7 @@ const Header = () => {
 							</div>
 							<div className={`navigation_bar ${menuBtn ? 'slide' : ' '}`}>
 								<div className="mobile_header_logo">
-									<Link href="/"><Image src={Logo} alt="Comsci Technologies Logo - Design & Development Agency" quality={100}/></Link>
+									<Link href="/"><Image src={Logo} alt="Comsci Technologies Logo - Design & Development Agency" quality={100} /></Link>
 								</div>
 								<div className="navigation_wrap">
 									<div className="nav-bar">
@@ -89,7 +89,7 @@ const Header = () => {
 											<li><Link href="/blogs">Blogs</Link></li>
 											<li><Link href="/faqs">FAQs</Link></li>
 											<li><Link href="/approach">Approach</Link></li>
-											<li><Link href="/jobposition">Job Position</Link></li>
+											<li><Link href="/jobposition">Career</Link></li>
 										</ul>
 									</div>
 									<div className="header_btn">
