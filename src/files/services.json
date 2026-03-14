@@ -78,14 +78,6 @@
         {
           "tag": "p",
           "content": "We are a tech-native agency. Your new branding is architected to flawlessly translate onto responsive web applications, mobile interfaces, and digital dashboards without losing its impact."
-        },
-        {
-          "tag": "h2",
-          "content": "Building Brands that Bridge Geographical Boundaries"
-        },
-        {
-          "tag": "iframe",
-          "src": ""
         }
       ],
       "strategy": {
@@ -211,14 +203,6 @@
         {
           "tag": "p",
           "content": "As AI goes mainstream in SF and New York, we build the interfaces that allow users to interact with machine learning models seamlessly, driving platform stickiness."
-        },
-        {
-          "tag": "h2",
-          "content": "Optimizing Every User Touchpoint for Conversion"
-        },
-        {
-          "tag": "iframe",
-          "src": ""
         }
       ],
       "strategy": {
@@ -344,14 +328,6 @@
         {
           "tag": "p",
           "content": "Operating in Berlin or Toronto? We build with 'Privacy by Design,' implementing secure user authentication and data encryption that aligns with local privacy regulations."
-        },
-        {
-          "tag": "h2",
-          "content": "Scalable Architectures: Building for the Next Million Users"
-        },
-        {
-          "tag": "iframe",
-          "src": ""
         }
       ],
       "strategy": {
@@ -498,10 +474,6 @@
           "tag": "h2",
           "content": "Performance & Polish: Crafting mobile apps that resonate."
         },
-        {
-          "tag": "iframe",
-          "src": ""
-        }
       ],
       "strategy": {
         "strategyTitle": "Mobile-First Strategic Roadmap",
@@ -646,14 +618,6 @@
         {
           "tag": "p",
           "content": "Our machine learning models help secure the fintech corridors of London and New York. By identifying anomalous behavior patterns in real-time, we help platform founders mitigate risk and reduce transaction losses automatically."
-        },
-        {
-          "tag": "h2",
-          "content": "Ethical AI Development: Scaling intelligence without compromising trust."
-        },
-        {
-          "tag": "iframe",
-          "src": ""
         }
       ],
       "strategy": {
