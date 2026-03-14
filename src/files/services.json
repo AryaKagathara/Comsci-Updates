@@ -469,11 +469,7 @@
         {
           "tag": "p",
           "content": "Need a polished, functional prototype to show VCs in Austin? Our rapid mobile prototyping cycle allows you to launch a robust MVP on both iOS and Android stores in as little as 6-8 weeks."
-        },
-        {
-          "tag": "h2",
-          "content": "Performance & Polish: Crafting mobile apps that resonate."
-        },
+        }
       ],
       "strategy": {
         "strategyTitle": "Mobile-First Strategic Roadmap",
