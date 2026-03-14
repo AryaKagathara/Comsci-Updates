@@ -41,7 +41,7 @@
       "content": [
         {
           "tag": "p",
-          "content": "In the hyper-competitive startup ecosystems of San Francisco, London, and Berlin, standing out requires more than just a logo—it requires an iconic visual language that communicates instant trust. At Comsci Technologies, we are a premium offshore design partner specializing in crafting robust brand identities that resonate with investors and enterprise buyers across the USA, UK, and Europe."
+          "content": "In the hyper-competitive startup ecosystems of San Francisco, London, and Berlin, standing out requires more than just a logo it requires an iconic visual language that communicates instant trust. At Comsci Technologies, we are a premium offshore design partner specializing in crafting robust brand identities that resonate with investors and enterprise buyers across the USA, UK, and Europe."
         },
         {
           "tag": "p",
@@ -178,7 +178,7 @@
       "content": [
         {
           "tag": "p",
-          "content": "For modern users in London, Sydney, or San Francisco, usability isn't a feature—it's the baseline. At Comsci Technologies, we are a specialist UI/UX agency that bridges the gap between engineering complexity and human-centric design. We help SaaS, Fintech, and AI startups translate fragmented data into intuitive, high-ROI digital experiences."
+          "content": "For modern users in London, Sydney, or San Francisco, usability isn't a feature it's the baseline. At Comsci Technologies, we are a specialist UI/UX agency that bridges the gap between engineering complexity and human-centric design. We help SaaS, Fintech, and AI startups translate fragmented data into intuitive, high-ROI digital experiences."
         },
         {
           "tag": "p",
@@ -448,7 +448,7 @@
       "content": [
         {
           "tag": "p",
-          "content": "In the fast-moving tech corridors of Austin, Texas, and Vancouver, BC, mobile innovation is the primary driver of startup success. At Comsci Technologies, we bridge the gap between world-class mobile engineering and the entrepreneurial spirit of North America and the UK. We specialize in building high-performance iOS and Android applications that aren't just functional—they are designed to top the App Store charts and secure your next round of funding."
+          "content": "In the fast-moving tech corridors of Austin, Texas, and Vancouver, BC, mobile innovation is the primary driver of startup success. At Comsci Technologies, we bridge the gap between world-class mobile engineering and the entrepreneurial spirit of North America and the UK. We specialize in building high-performance iOS and Android applications that aren't just functional they are designed to top the App Store charts and secure your next round of funding."
         },
         {
           "tag": "p",
@@ -532,7 +532,7 @@
       "faqs": [
         {
           "question": "Should I choose Native (Swift/Kotlin) or Cross-Platform (Flutter/React Native)?",
-          "answer": "For 90% of startups in Austin and Vancouver, Cross-Platform (Flutter or React Native) is the best choice—it saves up to 40% in cost and offers a single codebase for both platforms with native performance. We only recommend Native if your app requires heavy hardware processing or complex AR features."
+          "answer": "For 90% of startups in Austin and Vancouver, Cross-Platform (Flutter or React Native) is the best choice it saves up to 40% in cost and offers a single codebase for both platforms with native performance. We only recommend Native if your app requires heavy hardware processing or complex AR features."
         },
         {
           "question": "How do your costs compare to local agencies in Vancouver or Austin?",
@@ -746,7 +746,7 @@
       "content": [
         {
           "tag": "p",
-          "content": "In high-traffic digital hubs like Los Angeles and Barcelona, ranking on the first page isn't just about keywords—it’s about having a superior technical architecture. At Comsci Technologies, we bridge the gap between complex web development and organic visibility. We specialize in building 'Search-First' foundations for e-commerce brands and media platforms that need to handle millions of impressions from a global audience."
+          "content": "In high-traffic digital hubs like Los Angeles and Barcelona, ranking on the first page isn't just about keywords it’s about having a superior technical architecture. At Comsci Technologies, we bridge the gap between complex web development and organic visibility. We specialize in building 'Search-First' foundations for e-commerce brands and media platforms that need to handle millions of impressions from a global audience."
         },
         {
           "tag": "p",
@@ -778,7 +778,7 @@
         },
         {
           "tag": "p",
-          "content": "Google prioritizes speed. Our developers minify code, optimize asset delivery, and leverage edge-computing to ensure your site hits a 90+ Lighthouse score—the critical competitive edge in the crowded markets of London and NYC."
+          "content": "Google prioritizes speed. Our developers minify code, optimize asset delivery, and leverage edge-computing to ensure your site hits a 90+ Lighthouse score the critical competitive edge in the crowded markets of London and NYC."
         },
         {
           "tag": "h2",
@@ -883,7 +883,7 @@
       "content": [
         {
           "tag": "p",
-          "content": "In the global hubs of style—from the Parisian fashion districts to the high-concept studios of Los Angeles—your brand’s visual narrative is its ultimate signature. At Comsci Technologies, our Video Production and Art Direction team crafts visceral, high-fidelity content designed to resonate with premium consumers. We help luxury startups and creative platforms bridge the gap between abstract art and commercial conversion."
+          "content": "In the global hubs of style from the Parisian fashion districts to the high-concept studios of Los Angeles your brand’s visual narrative is its ultimate signature. At Comsci Technologies, our Video Production and Art Direction team crafts visceral, high-fidelity content designed to resonate with premium consumers. We help luxury startups and creative platforms bridge the gap between abstract art and commercial conversion."
         },
         {
           "tag": "p",
@@ -928,7 +928,7 @@
         "strategySteps": [
           {
             "title": "1. Visual Brand Discovery",
-            "description": "We define the aesthetic DNA of your project—palette, mood, and pace—to ensure alignment with Parisian luxury or LA energy standards."
+            "description": "We define the aesthetic DNA of your project palette, mood, and pace to ensure alignment with Parisian luxury or LA energy standards."
           },
           {
             "title": "2. Mood boarding & Art Direction",
