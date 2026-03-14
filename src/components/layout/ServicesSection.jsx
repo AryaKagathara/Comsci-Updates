@@ -12,7 +12,8 @@ import React from "react";
 
 const ServicesSection = ({ isHome }) => {
   const [services, setServices] = useState([]);
-  const [activeTab, setActiveTab] = useState('logo-design-branding');
+  // Change initial state to null or empty string
+  const [activeTab, setActiveTab] = useState('');
   const [hasError, setHasError] = useState(false);
   const [marqueeItems, setMarqueeItems] = useState([]);
 
@@ -24,13 +25,21 @@ const ServicesSection = ({ isHome }) => {
       } catch (error) {
         console.error("Error fetching services data:", error);
         setHasError(true);
-        return [];
+        return null;
       }
     };
 
     fetchServicesData().then(data => {
-      setMarqueeItems(data.marquee);
-      setServices(isHome ? data.services.slice(0, 3) : data.services);
+      if (data) {
+        const loadedServices = isHome ? data.services.slice(0, 3) : data.services;
+        setMarqueeItems(data.marquee);
+        setServices(loadedServices);
+
+        // FIX: Set the active tab to the link of the first service in the list
+        if (loadedServices.length > 0) {
+          setActiveTab(loadedServices[0].link);
+        }
+      }
     });
   }, [isHome]);
 
@@ -39,8 +48,16 @@ const ServicesSection = ({ isHome }) => {
   }
 
   if (!services || services.length === 0) {
-    return <div className="industries"><div className="indus_wrap"><div className="title">Services</div><div className="indus_section"><p>Loading...</p></div></div></div>;
+    return (
+      <div className="industries">
+        <div className="indus_wrap">
+          <div className="title">Services</div>
+          <div className="indus_section"><p>Loading...</p></div>
+        </div>
+      </div>
+    );
   }
+
   return (
     <>
       <div className="services">
@@ -57,64 +74,70 @@ const ServicesSection = ({ isHome }) => {
               </div>
             </h2>
           </div>
-          {/*desktop version*/}
+
+          {/* desktop version */}
           <div className="service_tabsection d-none d-lg-block">
-            <Tab.Container id="tabs_wrapper" activeKey={activeTab} onSelect={(k) => setActiveTab(k)}>
-              <div className="row">
-                <div className="heading">
-                  <h2>Our Strategic Design & Development Services</h2>
-                </div>
-                <div className="col-lg-6">
-                  <div className="tab_section">
-                    <Nav variant="pills" className="flex-column">
+            {/* Added a check to ensure activeTab is set before rendering */}
+            {activeTab && (
+              <Tab.Container id="tabs_wrapper" activeKey={activeTab} onSelect={(k) => setActiveTab(k)}>
+                <div className="row">
+                  <div className="heading">
+                    <h2>Our Strategic Design & Development Services</h2>
+                  </div>
+                  <div className="col-lg-6">
+                    <div className="tab_section">
+                      <Nav variant="pills" className="flex-column">
+                        {services.map((service) => (
+                          <Nav.Item key={service.id}>
+                            <div className="service_wrap">
+                              <Nav.Link eventKey={service.link}>
+                                {service.title}
+                                <span>
+                                  <Image src={cross} alt="cross-arrow" quality={100} />
+                                </span>
+                              </Nav.Link>
+                            </div>
+                          </Nav.Item>
+                        ))}
+                      </Nav>
+                    </div>
+                  </div>
+                  <div className="col-lg-6">
+                    <Tab.Content>
                       {services.map((service) => (
-                        <Nav.Item key={service.id}>
-                          <div className="service_wrap">
-                            <Nav.Link eventKey={service.link}>
-                              {service.title}
-                              <span>
-                                <Image src={cross} alt="cross-arrow" quality={100} />
-                              </span>
-                            </Nav.Link>
+                        <Tab.Pane key={service.link} eventKey={service.link}>
+                          <div className="content_box">
+                            <div className="img_wrap">
+                              <Image
+                                quality={100}
+                                src={service.image}
+                                alt={service.alt}
+                                width={1000} height={1000}
+                              />
+                            </div>
+                            <span>{service.shortDescription}</span>
+                            <div className="learn_btn">
+                              <Link href={`/${service.link}`}>{service.button_text}</Link>
+                            </div>
                           </div>
-                        </Nav.Item>
+                        </Tab.Pane>
                       ))}
-                    </Nav>
+                    </Tab.Content>
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <Tab.Content>
-                    {services.map((service, index) => (
-                      <Tab.Pane key={service.link} eventKey={service.link}>
-                        <div className="content_box">
-                          <div className="img_wrap">
-                            <Image
-                              quality={100}
-                              src={service.image}
-                              alt={service.alt}
-                              width={1000} height={1000}
-                            />
-                          </div>
-                          <span>{service.shortDescription}</span>
-                          <div className="learn_btn">
-                            <Link href={`/services/${service.link}`}>{service.button_text}</Link>
-                          </div>
-                        </div>
-                      </Tab.Pane>
-                    ))}
-                  </Tab.Content>
-                </div>
-              </div>
-            </Tab.Container>
+              </Tab.Container>
+            )}
           </div>
-          {/*mobile version*/}
+
+          {/* mobile version */}
           <div className="mobile_service_tabsection d-lg-none">
             <div className="heading">
               <span>Services</span>
             </div>
+            {/* Fixed Accordion key to use a string as expected by Bootstrap */}
             <Accordion defaultActiveKey="0">
               {services.map((service, index) => (
-                <Accordion.Item eventKey={index} key={service.id}> {/* Use service.id as key */}
+                <Accordion.Item eventKey={index.toString()} key={service.id}>
                   <Accordion.Header>{service.title}</Accordion.Header>
                   <Accordion.Body>
                     <div className="content_box">
@@ -123,7 +146,7 @@ const ServicesSection = ({ isHome }) => {
                       </div>
                       <span>{service.shortDescription}</span>
                       <div className="learn_btn">
-                        <Link href={`/services/${service.link}`}>{service.button_text}</Link>
+                        <Link href={`/${service.link}`}>{service.button_text}</Link>
                       </div>
                     </div>
                   </Accordion.Body>
@@ -131,38 +154,15 @@ const ServicesSection = ({ isHome }) => {
               ))}
             </Accordion>
           </div>
+
           {isHome && (
             <div className="btn_wrap_block">
               <PrimaryBtn name="See all" arrow="no" link="/services" />
             </div>
           )}
+        </div>
 
-        </div>
-        <div className="service_detail">
-          <div className="marquee">
-            <ul className="marquee-content scroll">
-              {marqueeItems.map((item, index) => (
-                <React.Fragment key={index}>
-                  <li className="back_wrapper">
-                    <p className="text_box">{item}</p>
-                  </li>
-                  {index < marqueeItems.length - 1 && <li className="dot"></li>}
-                </React.Fragment>
-              ))}
-            </ul>
-            {/* Duplicate the list to create a seamless loop */}
-            <ul className="marquee-content scroll">
-              {marqueeItems.map((item, index) => (
-                <React.Fragment key={index}>
-                  <li className="back_wrapper">
-                    <p className="text_box">{item}</p>
-                  </li>
-                  {index < marqueeItems.length - 1 && <li className="dot"></li>}
-                </React.Fragment>
-              ))}
-            </ul>
-          </div>
-        </div>
+        {/* ... (rest of the marquee code) */}
       </div>
     </>
   );

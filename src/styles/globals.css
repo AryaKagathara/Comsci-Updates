@@ -629,7 +629,7 @@ p {
 .service_tabsection .tab_section .nav .nav-link {
   background: transparent;
   color: var(--primary-light-gray);
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 500;
   line-height: 1.2;
   padding: 0;

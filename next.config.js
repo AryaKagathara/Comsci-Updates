@@ -4,7 +4,44 @@ const nextConfig = {
 
   async redirects() {
     return [
+      // --- NEW SERVICE PAGE REDIRECTS (Sitemap URLs -> New URLs) ---
+      {
+        source: '/services/logo-design-branding',
+        destination: '/branding-agency-usa-uk-europe',
+        permanent: true,
+      },
+      {
+        source: '/services/ux-ui-designing',
+        destination: '/ui-ux-design-agency-london-nyc-sf',
+        permanent: true,
+      },
+      {
+        source: '/services/website-web-application',
+        destination: '/saas-web-development-usa-uk-canada-australia',
+        permanent: true,
+      },
+      {
+        source: '/services/mobile-application-development',
+        destination: '/mobile-app-development-company-usa-uk-canada-australia',
+        permanent: true,
+      },
+      {
+        source: '/services/artificial-intelligence-machine-learning',
+        destination: '/custom-ai-solutions-boston-amsterdam',
+        permanent: true,
+      },
+      {
+        source: '/services/search-engine-optimization',
+        destination: '/technical-seo-services-los-angeles-barcelona',
+        permanent: true,
+      },
+      {
+        source: '/services/video-art-direction',
+        destination: '/video-art-direction-paris-la-creative',
+        permanent: true,
+      },
 
+      // --- PROJECT REDIRECTS ---
       {
         source: '/projects/eatcoast_restaurant_management_food_delivery_platform',
         destination: '/projects/eatcoast-food-delivery',
@@ -25,6 +62,13 @@ const nextConfig = {
         destination: '/projects/w3dart-bug-reporting-saas',
         permanent: true,
       },
+      {
+        source: '/project/medical-escape',
+        destination: '/projects/medical-escape-milan',
+        permanent: true,
+      },
+
+      // --- GENERAL PAGES & LEGACY SERVICE PATHS ---
       {
         source: '/about-us',
         destination: '/about',
@@ -62,12 +106,12 @@ const nextConfig = {
       },
       {
         source: '/service/seo',
-        destination: '/services/search-engine-optimization',
+        destination: '/technical-seo-services-los-angeles-barcelona', // Updated to new URL
         permanent: true,
       },
       {
         source: '/service/video-art-direction',
-        destination: '/services/video-art-direction',
+        destination: '/video-art-direction-paris-la-creative', // Updated to new URL
         permanent: true,
       },
       {
@@ -81,10 +125,12 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/project/medical-escape',
-        destination: '/projects/medical-escape-milan',
+        source: '/services/custom-web-development',
+        destination: '/saas-web-development-usa-uk-canada-australia', // Mapping specific legacy service to new logic
         permanent: true,
       },
+
+      // --- BLOG REDIRECTS ---
       {
         source: '/blog/nihil-ipsa-veritatis-occaecati-facere-4',
         destination: '/blogs/',
@@ -110,15 +156,8 @@ const nextConfig = {
         destination: '/blogs/',
         permanent: true,
       },
-      {
-        source: '/services/custom-web-development',
-        destination: '/services/',
-        permanent: true,
-      },
-
     ];
   },
-
 };
 
 module.exports = nextConfig;

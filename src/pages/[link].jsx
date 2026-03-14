@@ -9,15 +9,15 @@ import { useRouter } from 'next/router';
 import IndustriesPage from "@/components/IndustriesPage";
 import Faqsection from "@/components/layout/Faqsection";
 
-import baseMetaData from '../../files/meta.json';
-import breadcrumbData from '../../files/breadcrumbs.json';
-import industriesDataFile from '../../files/industries.json';
-
-import { organizationSchema, websiteSchema, BASE_URL } from '../../lib/commonSchema';
+// With this:
+import baseMetaData from '../files/meta.json';
+import breadcrumbData from '../files/breadcrumbs.json';
+import industriesDataFile from '../files/industries.json';
+import { organizationSchema, websiteSchema, BASE_URL } from '../lib/commonSchema';
 
 
 export async function getStaticPaths() {
-  const servicesData = require('../../files/services.json');
+  const servicesData = require('../files/services.json');
   const services = servicesData.services;
   const paths = services.map(service => ({
     params: { link: service.link }
@@ -26,7 +26,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const servicesData = require('../../files/services.json');
+  const servicesData = require('../files/services.json');
   const services = servicesData.services;
   const service = services.find(s => s.link === params.link);
   const industriesData = industriesDataFile;

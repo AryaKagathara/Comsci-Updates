@@ -31,9 +31,9 @@ const ServicesSection = ({ isHome }) => {
       setMarqueeItems(data.marquee);
       if (isHome) {
         setServices(data.services.slice(0, 3)); // data.services holds the array
-    } else {
+      } else {
         setServices(data.services);          // data.services holds the array
-    }
+      }
 
     });
   }, [isHome]);
@@ -122,7 +122,7 @@ const ServicesSection = ({ isHome }) => {
                             ))}
                           </div>
                           <div className="learn_btn">
-                            <Link href={`/services/${service.link}`}>Explore Our Service</Link>
+                            <Link href={`/${service.link}`}>Explore Our Service</Link>
                           </div>
                         </div>
                       </Tab.Pane>
@@ -155,7 +155,7 @@ const ServicesSection = ({ isHome }) => {
                       </div>
                       <span>{service.shortDescription}</span>
                       <div className="learn_btn">
-                        <Link href={`/services/${service.link}`}>Explore Our Service</Link>
+                        <Link href={`/${service.link}`}>Explore Our Service</Link>
                       </div>
                     </div>
                   </Accordion.Body>

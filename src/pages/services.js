@@ -92,7 +92,7 @@ export default function ServicesPage({ servicesData }) {
         "position": index + 1,
         "name": service.metatitle,
 
-        "url": `${BASE_URL}/services/${service.link}`
+        "url": `${BASE_URL}/${service.link}`
       }))
     }
   };
