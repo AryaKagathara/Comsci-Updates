@@ -34,8 +34,8 @@ const RendomLogo = () => {
 			<div className="rendom">
 				<div className="container">
 					<div className="text mt-2" data-scroll data-scroll-speed=".1">
-						<h2>Trusted by</h2>
-						<p className="my-4">We take pride in partnering with a diverse array of clients across Europe, UK, Australia and the USA, and beyond, delivering impactful digital solutions that result in measurable success.</p>
+						<h2>Built for Global Trust</h2>
+						<p className="my-4">Working with Comsci feels like having an in-house team. We operate on overlapping hours with New York, London, and Sydney time zones. Our process is optimized for Western GDPR & HIPAA compliance , secure IP ownership transfer, and clear, asynchronous communication.</p>
 					</div>
 					<div className="logo_section" id="ren_logo" data-scroll data-scroll-speed=".4">
 						{numbers.map((num) => (

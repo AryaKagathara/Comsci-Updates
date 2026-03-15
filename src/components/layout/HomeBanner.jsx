@@ -28,8 +28,8 @@ const HomeBanner = () => {
 								<span>TRUSTED 5 STAR</span>
 							</div>
 						</div>
-						<h1 className="fadeInUp">Global Creative Web Design & Software Development Agency</h1>
-						<h2 class="fadeInUp banner_sub_text">We collaborate with companies worldwide, offering top-notch web design, custom software solutions, mobile apps, and strategic branding to boost your online visibility.</h2>
+						<h1 className="fadeInUp">Digital Design & Engineering Partner for High-Growth Global Startups</h1>
+						<h2 class="fadeInUp banner_sub_text">We bridge the gap between Indian engineering efficiency and Western design sensibilities. Our studio specializes in building investor-ready products for founders in the USA, UK, Australia, and Europe, delivering Silicon-Valley-grade UI/UX, SaaS, and AI software that scales.</h2>
 						<div className='fadeInUp learn_btn_2'>
 							<Link href="/services">Explore Our Services</Link>
 						</div>

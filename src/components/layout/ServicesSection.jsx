@@ -82,7 +82,7 @@ const ServicesSection = ({ isHome }) => {
               <Tab.Container id="tabs_wrapper" activeKey={activeTab} onSelect={(k) => setActiveTab(k)}>
                 <div className="row">
                   <div className="heading">
-                    <h2>Our Strategic Design & Development Services</h2>
+                    <h2>We don't just build websites, we architect regional dominance through:</h2>
                   </div>
                   <div className="col-lg-6">
                     <div className="tab_section">

@@ -7,6 +7,7 @@ import StrategyImg2 from '@/../public/images/strategy-img2.svg';
 import StrategyImg3 from '@/../public/images/strategy-img3.svg';
 import StrategyImg4 from '@/../public/images/strategy-img4.svg';
 import StrategyImg5 from '@/../public/images/strategy-img5.svg';
+import ContentBox from "./ContentBox";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -46,7 +47,7 @@ const StrategySection = () => {
 						<div className="row">
 							<div className="col-lg-5">
 								<div className="text_section fadeInUp">
-									<h2>Our Proven Process: From Strategy to High-Performance Code</h2>
+									<h2>Our Strategic 'Follow-the-Sun' Workflow</h2>
 								</div>
 							</div>
 							<div className="col-lg-6 offset-lg-1">
@@ -57,8 +58,8 @@ const StrategySection = () => {
 												<Image src={StrategyImg1} alt="Comsci digital strategy planning icon" quality={100} />
 											</div>
 											<div className="content_box">
-												<span>Strategy</span>
-												<p>We kick things off by crafting a detailed strategy that aligns perfectly with our clients' goals. Through in-depth research, we make sure the final product not only meets their needs but also delivers real, measurable results.</p>
+												<span>Discovery</span>
+												<p>Region-specific market and competitor audit.</p>
 											</div>
 										</div>
 										<div className="image_content">
@@ -67,7 +68,7 @@ const StrategySection = () => {
 											</div>
 											<div className="content_box">
 												<span>Creative Design</span>
-												<p>Our talented creative team designs websites that showcase our clients' unique value propositions. We focus on creating an intuitive and engaging user experience, ensuring that every element of the design aligns with their business objectives and drives results.</p>
+												<p>Senior Figma prototyping for Tier-1 aesthetics.</p>
 											</div>
 										</div>
 										<div className="image_content">
@@ -75,8 +76,8 @@ const StrategySection = () => {
 												<Image src={StrategyImg3} alt="Comsci agile development process icon" quality={100} />
 											</div>
 											<div className="content_box">
-												<span>Development & Implementation</span>
-												<p>Our developers take the design and bring it to life, making sure the website is fully functional, responsive, and optimized for search engines. We conduct thorough testing to ensure everything meets our high-quality standards.</p>
+												<span>Engineering</span>
+												<p>Full-stack development with zero technical debt.</p>
 											</div>
 										</div>
 										<div className="image_content">
@@ -84,8 +85,8 @@ const StrategySection = () => {
 												<Image src={StrategyImg4} alt="Comsci QA testing symbol" quality={100} />
 											</div>
 											<div className="content_box">
-												<span>Quality Assurance Testing</span>
-												<p>Quality assurance is a top priority for us. Our dedicated testing team meticulously examines every detail of your project to spot and fix any potential issues. Through comprehensive testing and debugging, we guarantee that the final product meets the highest standards.</p>
+												<span>Quality & Compliance</span>
+												<p>Stress testing for GDPR/PIPEDA and cross-browser audits.</p>
 											</div>
 										</div>
 										<div className="image_content">
@@ -94,13 +95,13 @@ const StrategySection = () => {
 											</div>
 											<div className="content_box">
 												<span>Launch & Delivery</span>
-												<p>In the final phase, we collaborate closely with our clients to ensure they are satisfied and provide training and support for managing their website. We aim to build long-lasting relationships that help clients achieve their business goals, continuously monitoring website performance and offering ongoing optimization for sustained results.</p>
+												<p>Ongoing optimization for sustained results.</p>
+											</div>
+											<div className="timeline-line">
+												<div className="line-default"></div>
+												<div className="line-fill"></div>
 											</div>
 										</div>
-									</div>
-									<div className="timeline-line">
-										<div className="line-default"></div>
-										<div className="line-fill"></div>
 									</div>
 								</div>
 							</div>

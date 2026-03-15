@@ -17,7 +17,7 @@ const Footer = () => {
 					<div className="footer_section">
 						<div className="title_box">
 							<div className="mail_box">
-								<h4>Ready to Start Your Project or Discuss Your Vision?</h4>
+								<h4>Ready to extend your team with our premium offshore studio?</h4>
 								<Link target="_blank" href={`mailto:${contactData.email}?subject=REQUEST - Let's get started`}>Get a Quote</Link>
 							</div>
 							<PrimaryBtn name="Lets talk" arrow="no" target="_blank" link={contactData.calendly} />
