@@ -42,7 +42,7 @@ const IndustriesPage = () => {
 								</div>
 								<div className="textbox">
 									<div className="img_text">
-										<h5>{industry.title}</h5>
+										<h3>{industry.title}</h3>
 										<p><span>{industry.description}</span></p>
 										<div className="btn_box">
 											<strong>Learn more about {industry.title}</strong>

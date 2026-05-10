@@ -14,7 +14,7 @@ const BlogDetailSection = () => {
 							<i>October  30 ,2023</i>
 						</div>
 						<div className="image">
-							<Image src={Detailpicture} alt="Detailpicture" quality={100}/>
+							<Image src={Detailpicture} alt="Comsci blog article featured visual" quality={100}/>
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin nisl eu augue fermentum gravida. Etiam vestibulum feugiat congue. Quisque et sollicitudin est. Integer at iaculis dolor. Phasellus viverra sit amet diam id condimentum. Integer euismod, est quis dignissim venenatis, ipsum enim hendrerit justo, a pretium ligula velit quis velit.Sed at lorem nec elit bibendum pretium nec sed quam.</p>
 						<p>Sed tristique nisl vel gravida tempor. Sed non lectus eget quam ornare placerat faucibus eu diam. Phasellus eleifend, lectus et euismod dignissim, mi tellus porta quam, ac porttitor orci felis et urna. Vestibulum fermentum nulla ac nisi tempus lobortis. Quisque dolor purus, maximus id tellus pharetra, ornare lobortis ligula. In hac habitasse platea dictumst Ut ullamcorper nulla eget metus sagittis, eu convallis erat semper. Nunc iaculis, justo non iaculis euismod, dolor purus pharetra arcu, non facilisis velit eros sit amet elit. Quisque nec purus dolor. Nulla vitae sem in massa aliquam feugiat.</p>

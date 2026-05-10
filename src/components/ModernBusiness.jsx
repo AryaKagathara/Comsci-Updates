@@ -7,7 +7,7 @@ const ModernBusiness = () => {
 			<div className="business">
 				<div>
 					<div className="business_section">
-						<Image src={Business} alt="business" quality={100}/>
+						<Image src={Business} alt="Modern business digital transformation visual — Comsci Technologies" quality={100}/>
 					</div>
 				</div>
 			</div>

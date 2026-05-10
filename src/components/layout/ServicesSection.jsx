@@ -5,57 +5,19 @@ import world from "@/../public/images/globe.webp";
 import Nav from "react-bootstrap/Nav";
 import Tab from "react-bootstrap/Tab";
 import Accordion from 'react-bootstrap/Accordion';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import PrimaryBtn from '@/components/layout/PrimaryBtn';
 import React from "react";
+import servicesData from '../../files/services.json';
 
 
 const ServicesSection = ({ isHome }) => {
-  const [services, setServices] = useState([]);
-  // Change initial state to null or empty string
-  const [activeTab, setActiveTab] = useState('');
-  const [hasError, setHasError] = useState(false);
-  const [marqueeItems, setMarqueeItems] = useState([]);
-
-  useEffect(() => {
-    const fetchServicesData = async () => {
-      try {
-        const response = await import('../../files/services.json');
-        return response.default;
-      } catch (error) {
-        console.error("Error fetching services data:", error);
-        setHasError(true);
-        return null;
-      }
-    };
-
-    fetchServicesData().then(data => {
-      if (data) {
-        const loadedServices = isHome ? data.services.slice(0, 3) : data.services;
-        setMarqueeItems(data.marquee);
-        setServices(loadedServices);
-
-        // FIX: Set the active tab to the link of the first service in the list
-        if (loadedServices.length > 0) {
-          setActiveTab(loadedServices[0].link);
-        }
-      }
-    });
-  }, [isHome]);
-
-  if (hasError) {
-    return <p>Error loading services. Please try again later.</p>;
-  }
+  // SEO: render synchronously at SSR time so bots see service list, not "Loading...".
+  const services = isHome ? servicesData.services.slice(0, 3) : servicesData.services;
+  const [activeTab, setActiveTab] = useState(services[0]?.link || '');
 
   if (!services || services.length === 0) {
-    return (
-      <div className="industries">
-        <div className="indus_wrap">
-          <div className="title">Services</div>
-          <div className="indus_section"><p>Loading...</p></div>
-        </div>
-      </div>
-    );
+    return null;
   }
 
   return (
@@ -68,7 +30,14 @@ const ServicesSection = ({ isHome }) => {
               <div className="globe">
                 w
                 <div className="world_img">
-                  <Image src={world} alt="world" />
+                  <Image
+                    src={world}
+                    alt="Globe icon — Comsci serves clients worldwide"
+                    width={32}
+                    height={32}
+                    sizes="32px"
+                    quality={70}
+                  />
                 </div>
                 rldwide.
               </div>

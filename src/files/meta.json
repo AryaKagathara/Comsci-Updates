@@ -23,18 +23,24 @@
   "og": {
     "type": "website",
     "url": "https://comsci.tech",
+    "site_name": "Comsci Technologies",
+    "locale": "en_US",
     "title": "Comsci: Expert Web & App Design & Development Partner",
     "description": "Comsci is a 5-star agency delivering innovative web, app & custom software, branding, and SEO for global businesses.",
     "image": "https://comsci.tech/images/social-share-og/Facebook.webp",
-    "imageAlt": "Comsci Logo and Award Mentions"
+    "image:alt": "Comsci Logo and Award Mentions",
+    "image:width": "1200",
+    "image:height": "630"
   },
   "twitter": {
     "card": "summary_large_image",
+    "site": "@comsci_tech",
+    "creator": "@comsci_tech",
     "url": "https://comsci.tech",
     "title": "Comsci: Expert Web & App Design & Development Partner",
     "description": "Comsci is a 5-star agency delivering innovative web, app & custom software, branding, and SEO for global businesses.",
     "image": "https://comsci.tech/images/social-share-og/Twitter.webp",
-    "imageAlt": "Comsci Logo and Award Mentions"
+    "image:alt": "Comsci Logo and Award Mentions"
   },
   "robots": "index, follow",
   "author": "Comsci - Arya Kagathara"

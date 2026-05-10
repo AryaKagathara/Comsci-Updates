@@ -17,7 +17,8 @@ import Books from "@/components/layout/BooksSection";
 
 import baseMetaData from '../files/meta.json';
 
-import { organizationSchema, websiteSchema, BASE_URL } from '../lib/commonSchema';
+import { organizationSchema, websiteSchema, founderSchema, BASE_URL } from '../lib/commonSchema';
+import faqsData from '../files/faqs.json';
 
 export default function Home() {
   const router = useRouter();
@@ -63,9 +64,20 @@ export default function Home() {
 
   };
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": `${BASE_URL}/#faq`,
+    "mainEntity": faqsData.map((f) => ({
+      "@type": "Question",
+      "name": f.question,
+      "acceptedAnswer": { "@type": "Answer", "text": f.answer }
+    }))
+  };
+
   const finalSchema = {
     "@context": "https://schema.org",
-    "@graph": [organizationSchema, websiteSchema, pageSchema]
+    "@graph": [organizationSchema, founderSchema, websiteSchema, pageSchema, faqSchema]
   };
 
   return (

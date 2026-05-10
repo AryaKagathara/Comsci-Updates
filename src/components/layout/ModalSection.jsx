@@ -77,7 +77,7 @@ const ModalSection = () => {
                         <Modal.Header closeButton></Modal.Header>
 						<Modal.Body>
 							<div className="orange_circle">
-								<Image src={OrangeCircle} alt="orangecircle" quality={100} />
+								<Image src={OrangeCircle} alt="" aria-hidden="true" quality={100} />
 							</div>
 							<div className="current_img">
 								<Image src={Current} alt="Current" quality={100} />

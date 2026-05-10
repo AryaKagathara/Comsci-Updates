@@ -11,7 +11,7 @@ const TestimonialsSection = () => {
             <div className="test_sec" data-scroll data-scroll-speed={testimonial.scrollSpeed} key={index}>
               <div className="testi_wrap">
                 <div className="image">
-                  <Image src={testimonial.image} alt="quote" quality={100} width={100} height={100} />
+                  <Image src={testimonial.image} alt={`${testimonial.name || 'Comsci client'} testimonial photo`} quality={100} width={100} height={100} />
                 </div>
                 <div className="contentbox">
                   <h4>{testimonial.quote}</h4>

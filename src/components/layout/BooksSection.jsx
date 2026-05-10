@@ -11,7 +11,7 @@ export default function Books() {
         <div className="container">
           <div className="book-block">
             <div className="desktop-show">
-              <h4>Get your hands on Free Expert Guides & eBooks!</h4>
+              <h2>Get your hands on Free Expert Guides & eBooks!</h2>
               <div className="text desktop-show">
                 <p className="p1">
                   <i>Dive into the exciting realm of design and development with Comsci Technologies. Our expertly crafted eBooks offer valuable insights into everything from logos and color schemes to typography, branding, web design, and product packaging. We’re here to help businesses create memorable digital experiences.</i>
@@ -22,7 +22,7 @@ export default function Books() {
               </div>
             </div>
             <div className="book-img" data-scroll data-scroll-speed=".4">
-              <Image src={books} alt="Stack of Comsci eBooks on design and development best practices" width={1000} height={1000} quality={100} className="quiz-logo" />
+              <Image src={books} alt="Stack of Comsci eBooks on design and development best practices" width={1000} height={1000} sizes="(max-width: 991px) 90vw, 50vw" quality={75} className="quiz-logo" />
             </div>
           </div>
         </div>

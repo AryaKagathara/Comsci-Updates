@@ -17,7 +17,7 @@ const ApproachDetailSection = () => {
             <div className="test_sec" data-scroll data-scroll-speed={approach.scrollSpeed} key={index}>
               <div className="appro_wrap">
                 <div className="image">
-                  <Image src={approach.image} alt="quote" quality={100} width={1000} height={1000} />
+                  <Image src={approach.image} alt={approach.alt || `${approach.quote || 'Comsci'} — design and development methodology step`} quality={100} width={1000} height={1000} />
                 </div>
                 <div className="contentbox">
                   <h2>{approach.no}. {approach.quote}</h2>

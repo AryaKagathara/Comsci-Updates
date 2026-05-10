@@ -14,7 +14,7 @@ import baseMetaData from '../files/meta.json';
 
 import breadcrumbData from '../files/breadcrumbs.json';
 
-import { organizationSchema, websiteSchema, BASE_URL } from '../lib/commonSchema';
+import { organizationSchema, websiteSchema, founderSchema, BASE_URL } from '../lib/commonSchema';
 
 export default function About() {
   const router = useRouter();
@@ -95,6 +95,7 @@ export default function About() {
 
   const finalSchema = [
     organizationSchema,
+    founderSchema,
     websiteSchema,
     pageSchema,
     ...(breadcrumbSchema ? [breadcrumbSchema] : [])

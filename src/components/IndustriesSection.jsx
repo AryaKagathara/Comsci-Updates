@@ -2,35 +2,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import PrimaryBtn from '@/components/layout/PrimaryBtn';
-import { useEffect, useState } from "react";
+import industriesData from '../files/industries.json';
 
 const IndustriesSection = () => {
-    const [industries, setIndustries] = useState([]);
-    const [hasError, setHasError] = useState(false);
-
-    useEffect(() => {
-        const fetchIndustriesData = async () => {
-            try {
-                const response = await import('../files/industries.json');
-                return response.default;
-            } catch (error) {
-                console.error("Error fetching industries data:", error);
-                setHasError(true);
-                return [];
-            }
-        };
-
-        fetchIndustriesData().then(data => {
-            setIndustries(data.slice(0, 3));
-        });
-    }, []);
-
-    if (hasError) {
-        return <p>Error loading industries. Please try again later.</p>;
-    }
+    // SEO: render synchronously so industries are crawlable at first paint, not after hydration.
+    const industries = industriesData.slice(0, 3);
 
     if (!industries || industries.length === 0) {
-        return <div className="industries"><div className="indus_wrap"><div className="title">Industries</div><div className="indus_section"><p>Loading...</p></div></div></div>;
+        return null;
     }
 
 
@@ -67,7 +46,7 @@ const IndustriesSection = () => {
                             </div>
                             <div className="textbox">
                                 <div className="img_text">
-                                    <h5>{industry.title}</h5>
+                                    <h3>{industry.title}</h3>
                                     <p><span>{industry.description}</span></p>
                                     <div className="btn_box">
                                         <strong>Learn more about {industry.title} Solutions</strong>
