@@ -1,33 +1,12 @@
-import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-const imgQty = 18;
-
-function RandomImage(props) {
-	const style = {
-		width: 150,
-		height: 80,
-		display: 'inline-flex',
-		boxSizing: 'border-box',
-		backgroundImage: `url("images/clients/client-logo-${props.num}.svg")`,
-		transition: 'all 1s ease-in-out'
-	};
-
-	return (
-		<div href="" style={style} />
-	);
-}
+// Cap at 12 logos (was 18) to cut DOM size — Lighthouse flagged #ren_logo with 18 children.
+// Switched from <div background-image> to <img alt> so logos are crawlable trust signals,
+// and added loading="lazy" + decoding="async" since the row sits below the fold.
+const imgQty = 12;
 
 const RendomLogo = () => {
-	const [numbers, setNumbers] = useState(Array(imgQty).fill().map((_, i) => i + 1));
-
-	useEffect(() => {
-		// const interval = setInterval(() => {
-		// 	setNumbers((prevNumbers) => [...prevNumbers].sort(() => Math.random() - 0.5));
-		// }, 2000);
-
-		// return () => clearInterval(interval);
-	}, []);
+	const numbers = Array.from({ length: imgQty }, (_, i) => i + 1);
 
 	return (
 		<>
@@ -39,7 +18,16 @@ const RendomLogo = () => {
 					</div>
 					<div className="logo_section" id="ren_logo" data-scroll data-scroll-speed=".4">
 						{numbers.map((num) => (
-							<RandomImage key={num} num={num} />
+							<img
+								key={num}
+								src={`/images/clients/client-logo-${num}.svg`}
+								alt={`Comsci client ${num} logo`}
+								width={150}
+								height={80}
+								loading="lazy"
+								decoding="async"
+								style={{ display: 'inline-flex', boxSizing: 'border-box' }}
+							/>
 						))}
 					</div>
 				</div>

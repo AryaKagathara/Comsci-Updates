@@ -28,5 +28,15 @@
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.0.3"
-  }
+  },
+  "browserslist": [
+    "chrome >= 87",
+    "edge >= 88",
+    "firefox >= 78",
+    "safari >= 14",
+    "ios >= 14",
+    "samsung >= 16",
+    "not dead",
+    "not op_mini all"
+  ]
 }

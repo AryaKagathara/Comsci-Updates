@@ -14,7 +14,6 @@ import servicesData from '../../files/services.json';
 const ServicesSection = ({ isHome }) => {
   // SEO: render synchronously at SSR time so bots see service list, not "Loading...".
   const services = isHome ? servicesData.services.slice(0, 3) : servicesData.services;
-  const marqueeItems = servicesData.marquee;
   const [activeTab, setActiveTab] = useState(services[0]?.link || '');
 
   if (!services || services.length === 0) {
@@ -31,7 +30,14 @@ const ServicesSection = ({ isHome }) => {
               <div className="globe">
                 w
                 <div className="world_img">
-                  <Image src={world} alt="Globe icon — Comsci serves clients worldwide" />
+                  <Image
+                    src={world}
+                    alt="Globe icon — Comsci serves clients worldwide"
+                    width={32}
+                    height={32}
+                    sizes="32px"
+                    quality={70}
+                  />
                 </div>
                 rldwide.
               </div>

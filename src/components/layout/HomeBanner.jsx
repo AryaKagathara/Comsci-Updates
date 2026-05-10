@@ -9,21 +9,21 @@ const HomeBanner = () => {
 		<>
 			<div className="banner">
 				<div className="banner_bg_img">
-					<Image src={Banner} alt="Innovative web and mobile app interfaces - Comsci Design & Development Agency" quality={100} />
+					<Image src={Banner} alt="Innovative web and mobile app interfaces - Comsci Design & Development Agency" priority fetchPriority="high" sizes="(min-width: 992px) 100vw, 0px" quality={75} />
 				</div>
 				<div className="mobile_banner_img">
-					<Image src={mobileBanner} alt="Innovative web and mobile app interfaces - Comsci Design & Development Agency" quality={100} />
+					<Image src={mobileBanner} alt="Innovative web and mobile app interfaces - Comsci Design & Development Agency" priority fetchPriority="high" sizes="(max-width: 991px) 100vw, 0px" quality={75} />
 				</div>
 				<div className="container">
 					<div className="banner_textbox" data-scroll data-scroll-speed=".2">
 						<div className="banner_badges fadeInUp">
 							<div className="star-badge">
 								<div className="stars">
-									<Image src={starBadge} alt="Star" />
-									<Image src={starBadge} alt="Star" />
-									<Image src={starBadge} alt="Star" />
-									<Image src={starBadge} alt="Star" />
-									<Image src={starBadge} alt="Star" />
+									<Image src={starBadge} alt="" aria-hidden="true" width={21} height={20} />
+									<Image src={starBadge} alt="" aria-hidden="true" width={21} height={20} />
+									<Image src={starBadge} alt="" aria-hidden="true" width={21} height={20} />
+									<Image src={starBadge} alt="" aria-hidden="true" width={21} height={20} />
+									<Image src={starBadge} alt="" aria-hidden="true" width={21} height={20} />
 								</div>
 								<span>TRUSTED 5 STAR</span>
 							</div>
