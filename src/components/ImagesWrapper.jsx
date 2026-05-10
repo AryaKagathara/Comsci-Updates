@@ -7,10 +7,10 @@ const ImagesWrapper = () => {
 		<>
 			<div className="images_wrapper">
 				<div className="fsc_img">
-					<Image src={FSC} alt="fsc" quality={100}/>
+					<Image src={FSC} alt="Comsci full-stack development showcase" quality={100}/>
 				</div>
 				<div className="fsc_img">
-					<Image src={Homedetail} alt="fsc" quality={100}/>
+					<Image src={Homedetail} alt="Comsci home product detail showcase" quality={100}/>
 				</div>
 			</div>
 		</>

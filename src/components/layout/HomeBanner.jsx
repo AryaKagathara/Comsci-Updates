@@ -29,7 +29,7 @@ const HomeBanner = () => {
 							</div>
 						</div>
 						<h1 className="fadeInUp">Digital Design & Engineering Partner for High-Growth Global Startups</h1>
-						<h2 class="fadeInUp banner_sub_text">We bridge the gap between Indian engineering efficiency and Western design sensibilities. Our studio specializes in building investor-ready products for founders in the USA, UK, Australia, and Europe, delivering Silicon-Valley-grade UI/UX, SaaS, and AI software that scales.</h2>
+						<p className="fadeInUp banner_sub_text">We bridge the gap between Indian engineering efficiency and Western design sensibilities. Our studio specializes in building investor-ready products for founders in the USA, UK, Australia, and Europe, delivering Silicon-Valley-grade UI/UX, SaaS, and AI software that scales.</p>
 						<div className='fadeInUp learn_btn_2'>
 							<Link href="/services">Explore Our Services</Link>
 						</div>

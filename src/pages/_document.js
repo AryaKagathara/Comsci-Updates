@@ -28,6 +28,12 @@ export default function Document() {
         {/* End Google tag (gtag.js) scripts */}
 
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#1B2A4A" />
+        <meta name="format-detection" content="telephone=no" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://calendly.com" />
 
       </Head>
       <body>
