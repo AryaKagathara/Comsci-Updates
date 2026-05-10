@@ -9,8 +9,7 @@ module.exports = {
   exclude: ['/404', '/server-sitemap-index.xml'],
   robotsTxtOptions: {
     policies: [
-      { userAgent: '*', allow: '/' },
-      { userAgent: '*', disallow: ['/404', '/api/'] },
+      { userAgent: '*', allow: '/', disallow: ['/404', '/api/'] },
     ],
     additionalSitemaps: [],
   },
