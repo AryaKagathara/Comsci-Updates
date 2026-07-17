@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://comsci.tech
+
+# Sitemaps
+Sitemap: https://comsci.tech/sitemap.xml
