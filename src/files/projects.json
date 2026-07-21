@@ -64,69 +64,64 @@
     },
     {
         "id": 2,
-        "title": "OPA World Luxury Greek Restaurant",
-        "description": "Explore the OPA World luxury Greek restaurant website, designed & developed by Comsci. Showcasing the authentic Greek dining experience in locations like Dubai, St. Tropez & more.",
-        "meta_title": "OPA World Website Design & Development by Comsci | Luxury Greek Restaurant Project",
-        "meta_description": "Discover Comsci's web design & development work for OPA World, a leading luxury Greek restaurant. Featuring authentic cuisine, vibrant culture, and global locations (Dubai, St. Tropez, Bodrum, Doha, Bahrain, Mumbai).",
-        "alt": "OPA World luxury Greek restaurant website homepage designed by Comsci",
-        "image": "/images/projects/OPA-0.webp",
+        "title": "Chilld Cold Brew Coffee Brand & UI Experience",
+        "description": "Chilld Coffee is a custom-crafted cold brew concentrate brand developed to foster a highly personalized coffee culture for urban Gen Z and Millennial professionals. Comsci Technologies led the end-to-end design from brand identity and interactive packaging to a custom e-commerce web platform and digital retail kiosks.",
+        "meta_title": "Chilld Coffee Branding & Web UI/UX | Comsci Design Project",
+        "meta_description": "Explore Comsci's work for Chilld Coffee, including typography-first branding, custom beverage packaging, responsive e-commerce UI/UX, and self-service kiosks.",
+        "alt": "Chilld cold brew coffee brand identity packaging and responsive web design by Comsci",
+        "image": "/images/projects/Chilld-Coffee-0.webp",
         "images": [
-            "/images/projects/OPA-1.webp",
-            "/images/projects/OPA-2.webp",
-            "/images/projects/OPA-3.webp",
-            "/images/projects/OPA-4.webp",
-            "/images/projects/OPA-5.webp",
-            "/images/projects/OPA-6.webp",
-            "/images/projects/OPA-7.webp",
-            "/images/projects/OPA-8.webp",
-            "/images/projects/OPA-9.webp",
-            "/images/projects/OPA-10.webp",
-            "/images/projects/OPA-11.webp",
-            "/images/projects/OPA-12.webp",
-            "/images/projects/OPA-13.webp"
+            "/images/projects/Chilld-Coffee-1.webp",
+            "/images/projects/Chilld-Coffee-2.webp",
+            "/images/projects/Chilld-Coffee-3.webp",
+            "/images/projects/Chilld-Coffee-4.webp",
+            "/images/projects/Chilld-Coffee-5.webp",
+            "/images/projects/Chilld-Coffee-6.webp",
+            "/images/projects/Chilld-Coffee-7.webp",
+            "/images/projects/Chilld-Coffee-8.webp",
+            "/images/projects/Chilld-Coffee-9.webp",
+            "/images/projects/Chilld-Coffee-10.webp",
+            "/images/projects/Chilld-Coffee-11.webp",
+            "/images/projects/Chilld-Coffee-12.webp",
+            "/images/projects/Chilld-Coffee-13.webp"
         ],
-        "link": "opa-world-dubai-luxury-greek-restaurant",
-        "external-link": "https://www.opaworld.com",
+        "link": "chilld-coffee-branding-and-web-design",
+        "external-link": "https://chilld.coffee",
         "technologies": [
-            "Photoshop",
             "Figma",
-            "HTML5",
-            "CSS3",
-            "JavaScript",
-            "WordPress",
-            "PHP",
-            "SQL Database",
-            "Advanced Custom Fields (ACF)",
-            "SEO"
+            "Photoshop",
+            "Illustrator",
+            "Branding",
+            "UI/UX Design",
+            "Packaging Design",
+            "Copywriting"
         ],
         "category": [
             "Logo & Branding",
             "UX UI Design",
+            "Packaging Design",
             "Web Development"
         ],
         "industry": [
-            "Luxury & Hospitality"
+            "Food & Beverage",
+            "Retail"
         ],
         "content": [
             {
                 "tag": "p",
-                "content": "Comsci partnered with OPA World to create a vibrant online presence that mirrors their unique Traditional Greek Dining Experience. The project involved comprehensive <a href='https://comsci.tech/saas-web-development-usa-uk-canada-australia'>Web Development</a> and intricate <a href='https://comsci.tech/ui-ux-design-agency-london-nyc-sf'>UX/UI Design</a> to bring the spirit of Greece and luxury hospitality to a global digital audience."
+                "content": "We partnered with Chilld Coffee to establish a cohesive brand ecosystem, including a custom logo, packaging, and a responsive <a href='https://comsci.tech/saas-web-development-usa-uk-canada-australia'>e-commerce platform</a>. Targeting Gen Z and Millennial working professionals in cities like Mumbai and Bangalore, CHILLD brings authentic, highly customizable cold brew concentrates into the modern digital era."
             },
             {
                 "tag": "p",
-                "content": "Our goal was to design and develop a website that encapsulates the immersive 'OPA Experience' – a night filled with shared plates, spirited music, and plate smashing. We focused on building an intuitive interface that guides users through the story of OPA, highlighting their culture, cuisine crafted with passion and tradition, and the unforgettable celebratory atmosphere."
+                "content": "Our core challenge was to break the mold of traditional beverage menus. We designed a typography-first <a href='https://comsci.tech/mobile-app-development-company-usa-uk-canada-australia'>UI/UX system</a> and a bold visual identity utilizing a cool-toned color palette (Primary Blue, Sail, and Lily White). The typography utilizes 'Author' for contemporary clean structures, paired with 'HEATHERGREEN' for an expressive accent style."
             },
             {
                 "tag": "p",
-                "content": "Leveraging the detailed content provided by OPA, our <a href='https://comsci.tech/branding-agency-usa-uk-europe'>branding and design</a> team translated the authentic Greek elements – white-washed walls, blue accents, bougainvillea – into a visually stunning <a href='https://comsci.tech/ui-ux-design-agency-london-nyc-sf'>user interface</a>. The user flow was meticulously designed to showcase destinations like Dubai, Saint-Tropez, Bodrum, Doha, Bahrain, and Mumbai, facilitating reservations and providing essential information about each location."
+                "content": "For the physical touchpoints, we designed minimal, modern packaging labels for the brand's 'Classic', 'Kappi', and 'Bold' cold brew variants. We extended this interactive brand identity to print collaterals, developing paper cups featuring gamified elements like connect-the-dots drawings and mazes, making coffee-drinking a completely immersive experience."
             },
             {
                 "tag": "p",
-                "content": "The technical implementation involved robust <a href='https://comsci.tech/saas-web-development-usa-uk-canada-australia'>web development</a> using WordPress, PHP, and SQL databases to ensure a scalable and high-performance platform. Advanced Custom Fields (ACF) provided the flexibility needed for managing diverse content sections like destinations, cuisine details, and the OPA Book. We also implemented crucial <a href='https://comsci.tech/technical-seo-services-los-angeles-barcelona'>SEO</a> strategies to enhance visibility for potential diners searching for luxury Greek experiences."
-            },
-            {
-                "tag": "p",
-                "content": "The result is a dynamic and engaging website that effectively communicates OPA's core values of togetherness, hospitality, and culinary excellence. This project stands as a prime example of Comsci's capability in delivering high-quality <a href='https://comsci.tech/industries/hospitality'>Luxury & Hospitality web solutions</a> that create memorable digital journeys for users, mirroring the exceptional real-world experience."
+                "content": "Finally, we engineered the digital architecture for both web and interactive kiosks. Users can seamlessly browse products, customize milk and sweetness levels, and 'code their own coffee' on a clean, responsive interface. The end result is an effortlessly cool, conversational <a href='https://comsci.tech/saas-web-development-usa-uk-canada-australia'>web application</a> that empowers consumers to drink coffee exactly their way."
             }
         ]
     },
@@ -319,6 +314,74 @@
     },
     {
         "id": 6,
+        "title": "OPA World Luxury Greek Restaurant",
+        "description": "Explore the OPA World luxury Greek restaurant website, designed & developed by Comsci. Showcasing the authentic Greek dining experience in locations like Dubai, St. Tropez & more.",
+        "meta_title": "OPA World Website Design & Development by Comsci | Luxury Greek Restaurant Project",
+        "meta_description": "Discover Comsci's web design & development work for OPA World, a leading luxury Greek restaurant. Featuring authentic cuisine, vibrant culture, and global locations (Dubai, St. Tropez, Bodrum, Doha, Bahrain, Mumbai).",
+        "alt": "OPA World luxury Greek restaurant website homepage designed by Comsci",
+        "image": "/images/projects/OPA-0.webp",
+        "images": [
+            "/images/projects/OPA-1.webp",
+            "/images/projects/OPA-2.webp",
+            "/images/projects/OPA-3.webp",
+            "/images/projects/OPA-4.webp",
+            "/images/projects/OPA-5.webp",
+            "/images/projects/OPA-6.webp",
+            "/images/projects/OPA-7.webp",
+            "/images/projects/OPA-8.webp",
+            "/images/projects/OPA-9.webp",
+            "/images/projects/OPA-10.webp",
+            "/images/projects/OPA-11.webp",
+            "/images/projects/OPA-12.webp",
+            "/images/projects/OPA-13.webp"
+        ],
+        "link": "opa-world-dubai-luxury-greek-restaurant",
+        "external-link": "https://www.opaworld.com",
+        "technologies": [
+            "Photoshop",
+            "Figma",
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "WordPress",
+            "PHP",
+            "SQL Database",
+            "Advanced Custom Fields (ACF)",
+            "SEO"
+        ],
+        "category": [
+            "Logo & Branding",
+            "UX UI Design",
+            "Web Development"
+        ],
+        "industry": [
+            "Luxury & Hospitality"
+        ],
+        "content": [
+            {
+                "tag": "p",
+                "content": "Comsci partnered with OPA World to create a vibrant online presence that mirrors their unique Traditional Greek Dining Experience. The project involved comprehensive <a href='https://comsci.tech/saas-web-development-usa-uk-canada-australia'>Web Development</a> and intricate <a href='https://comsci.tech/ui-ux-design-agency-london-nyc-sf'>UX/UI Design</a> to bring the spirit of Greece and luxury hospitality to a global digital audience."
+            },
+            {
+                "tag": "p",
+                "content": "Our goal was to design and develop a website that encapsulates the immersive 'OPA Experience' – a night filled with shared plates, spirited music, and plate smashing. We focused on building an intuitive interface that guides users through the story of OPA, highlighting their culture, cuisine crafted with passion and tradition, and the unforgettable celebratory atmosphere."
+            },
+            {
+                "tag": "p",
+                "content": "Leveraging the detailed content provided by OPA, our <a href='https://comsci.tech/branding-agency-usa-uk-europe'>branding and design</a> team translated the authentic Greek elements – white-washed walls, blue accents, bougainvillea – into a visually stunning <a href='https://comsci.tech/ui-ux-design-agency-london-nyc-sf'>user interface</a>. The user flow was meticulously designed to showcase destinations like Dubai, Saint-Tropez, Bodrum, Doha, Bahrain, and Mumbai, facilitating reservations and providing essential information about each location."
+            },
+            {
+                "tag": "p",
+                "content": "The technical implementation involved robust <a href='https://comsci.tech/saas-web-development-usa-uk-canada-australia'>web development</a> using WordPress, PHP, and SQL databases to ensure a scalable and high-performance platform. Advanced Custom Fields (ACF) provided the flexibility needed for managing diverse content sections like destinations, cuisine details, and the OPA Book. We also implemented crucial <a href='https://comsci.tech/technical-seo-services-los-angeles-barcelona'>SEO</a> strategies to enhance visibility for potential diners searching for luxury Greek experiences."
+            },
+            {
+                "tag": "p",
+                "content": "The result is a dynamic and engaging website that effectively communicates OPA's core values of togetherness, hospitality, and culinary excellence. This project stands as a prime example of Comsci's capability in delivering high-quality <a href='https://comsci.tech/industries/hospitality'>Luxury & Hospitality web solutions</a> that create memorable digital journeys for users, mirroring the exceptional real-world experience."
+            }
+        ]
+    },
+    {
+        "id": 7,
         "title": "Medical Escape Milan Skin Care Clinic",
         "description": "Choosing our clinic means relying on a team of highly qualified professionals, led by the renowned prof. Dario bertossi",
         "meta_title": "Medical Escape Milan Skin Care Clinic Website Project",
@@ -373,7 +436,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Roberto Bolle Foundation Italy Website",
         "description": "Developed a sleek and engaging website for the Roberto Bolle Foundation, showcasing its mission to promote dance and cultural initiatives worldwide. The site features a seamless user experience, elegant design, and intuitive navigation to highlight the foundation’s impactful work.",
         "meta_title": "Roberto Bolle Foundation Italy Website Case Study | Comsci",
@@ -429,7 +492,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "One Stop Pizza - Branding & Web App Development",
         "description": "A fresh brand identity and a user-friendly web application for One Stop Pizza, enabling seamless online ordering and delivery for their customers in Leicester. We cooked up a visually appealing brand and a robust platform that makes getting a delicious pizza just a few clicks away.",
         "meta_title": "One Stop Pizza | Branding & Web App Development Case Study",
@@ -490,7 +553,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 10,
         "title": "BLKResumes USA Recruitment Platform",
         "description": "BLKResumes is a dynamic and inclusive hiring and job search platform designed for professionals seeking career opportunities, with a focus on connecting black and brown talent in various industries.",
         "meta_title": "BLKResumes USA Recruitment Platform Development",
@@ -550,7 +613,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 11,
         "title": "W3Dart Bug Reporting SaaS Tool",
         "description": "W3Dart is a powerful visual feedback and bug reporting tool designed for developers and designers. Streamline collaboration with annotated screenshots, video screen capture, and seamless task management.",
         "meta_title": "W3Dart SaaS Bug Reporting Tool Development by Comsci",
@@ -615,7 +678,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 12,
         "title": "Recre Marketing Agency Website",
         "description": "Crafted a sleek and engaging website for Recre8, a video marketing agency that brings brands to life through compelling visuals. The design captures their creativity, innovation, and storytelling expertise.",
         "meta_title": "Recre Video Marketing Agency Website by Comsci",
@@ -669,7 +732,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 13,
         "title": "Black Lusion Web3 Games Marketplace",
         "description": "Crafted a sleek and engaging website for Recre8, a video marketing agency that brings brands to life through compelling visuals. The design captures their creativity, innovation, and storytelling expertise.",
         "meta_title": "Black Lusion Web3 Games Marketplace Development",
@@ -730,7 +793,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 14,
         "title": "Carlton West Canada Real Estate Website",
         "description": "Carlton West offers premium condo-style living next to Westboro, combining modern design with top-tier amenities. Experience the perfect blend of comfort, convenience, and vibrant city life in Ottawa.",
         "meta_title": "Carlton West Canada Real Estate Website by Comsci",
@@ -790,7 +853,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 15,
         "title": "DA Studio Interior Designer Branding",
         "description": "We crafted a sophisticated brand identity for DA Studio, an interior design firm that transforms spaces with elegance and innovation. The branding reflects their vision of timeless aesthetics and functional design.",
         "meta_title": "DA Studio Interior Designer Branding Case Study",
@@ -844,7 +907,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 16,
         "title": "KV Energy Revenue",
         "description": "KV Energy Revenue is a premier energy solutions provider in India, focused on transforming energy conservation into a revenue-generating asset for industrial and commercial businesses.",
         "meta_title": "KV Energy Revenue WordPress Website Development | Comsci",
@@ -899,7 +962,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 17,
         "title": "Myotonx Body Reset Clinic",
         "description": "Myotonx® revolutionizes body alignment with Instant Body Reset™, a groundbreaking approach that restores posture and function without stretching or manipulation. Experience a pain-free, self-correcting transformation that makes you functionally younger—guaranteed!",
         "meta_title": "Myotonx Body Reset Clinic Website Project | Comsci",
@@ -954,7 +1017,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 18,
         "title": "RMS Advance GIS Logistic Tool",
         "description": "Designed and developed a web-based GIS logistics tool that streamlines route planning and quoting by integrating real-time data with Google Maps. This smart system optimizes delivery efficiency, reducing costs and improving decision-decision-making for logistics managers.",
         "meta_title": "RMS Advance GIS Logistic Tool Development | Comsci",
